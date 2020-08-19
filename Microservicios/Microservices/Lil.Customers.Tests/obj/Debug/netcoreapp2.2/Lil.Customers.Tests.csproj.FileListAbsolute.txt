@@ -1,0 +1,17 @@
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Lil.Customers.Tests.deps.json
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Lil.Customers.Tests.runtimeconfig.json
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Lil.Customers.Tests.runtimeconfig.dev.json
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Lil.Customers.Tests.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Lil.Customers.Tests.pdb
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Lil.Customers.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Lil.Customers.pdb
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.csprojAssemblyReference.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.AssemblyInfoInputs.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.AssemblyInfo.cs
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.csproj.CopyComplete
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.pdb

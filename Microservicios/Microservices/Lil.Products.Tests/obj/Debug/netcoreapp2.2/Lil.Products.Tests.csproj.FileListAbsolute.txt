@@ -1,0 +1,17 @@
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\obj\Debug\netcoreapp2.2\Lil.Products.Tests.csprojAssemblyReference.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\obj\Debug\netcoreapp2.2\Lil.Products.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\obj\Debug\netcoreapp2.2\Lil.Products.Tests.AssemblyInfoInputs.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\obj\Debug\netcoreapp2.2\Lil.Products.Tests.AssemblyInfo.cs
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\bin\Debug\netcoreapp2.2\Lil.Products.Tests.deps.json
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\bin\Debug\netcoreapp2.2\Lil.Products.Tests.runtimeconfig.json
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\bin\Debug\netcoreapp2.2\Lil.Products.Tests.runtimeconfig.dev.json
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\bin\Debug\netcoreapp2.2\Lil.Products.Tests.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\bin\Debug\netcoreapp2.2\Lil.Products.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\bin\Debug\netcoreapp2.2\Lil.Products.pdb
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\obj\Debug\netcoreapp2.2\Lil.Products.Tests.csproj.CopyComplete
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\bin\Debug\netcoreapp2.2\Lil.Products.Tests.pdb
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\obj\Debug\netcoreapp2.2\Lil.Products.Tests.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Products.Tests\obj\Debug\netcoreapp2.2\Lil.Products.Tests.pdb

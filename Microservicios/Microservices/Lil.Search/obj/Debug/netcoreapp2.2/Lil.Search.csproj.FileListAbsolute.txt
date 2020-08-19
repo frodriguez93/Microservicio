@@ -1,0 +1,14 @@
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search\bin\Debug\netcoreapp2.2\Lil.Search.deps.json
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search\bin\Debug\netcoreapp2.2\Lil.Search.runtimeconfig.json
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search\bin\Debug\netcoreapp2.2\Lil.Search.runtimeconfig.dev.json
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search\bin\Debug\netcoreapp2.2\Lil.Search.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search\bin\Debug\netcoreapp2.2\Lil.Search.pdb
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search\obj\Debug\netcoreapp2.2\Lil.Search.csprojAssemblyReference.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search\obj\Debug\netcoreapp2.2\Lil.Search.csproj.CoreCompileInputs.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search\obj\Debug\netcoreapp2.2\Lil.Search.RazorAssemblyInfo.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search\obj\Debug\netcoreapp2.2\Lil.Search.RazorAssemblyInfo.cs
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search\obj\Debug\netcoreapp2.2\Lil.Search.AssemblyInfoInputs.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search\obj\Debug\netcoreapp2.2\Lil.Search.AssemblyInfo.cs
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search\obj\Debug\netcoreapp2.2\Lil.Search.RazorTargetAssemblyInfo.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search\obj\Debug\netcoreapp2.2\Lil.Search.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search\obj\Debug\netcoreapp2.2\Lil.Search.pdb

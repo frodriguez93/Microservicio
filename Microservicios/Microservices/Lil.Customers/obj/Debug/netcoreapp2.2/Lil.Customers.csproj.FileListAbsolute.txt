@@ -1,0 +1,14 @@
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\bin\Debug\netcoreapp2.2\Lil.Customers.deps.json
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\bin\Debug\netcoreapp2.2\Lil.Customers.runtimeconfig.json
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\bin\Debug\netcoreapp2.2\Lil.Customers.runtimeconfig.dev.json
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\bin\Debug\netcoreapp2.2\Lil.Customers.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\bin\Debug\netcoreapp2.2\Lil.Customers.pdb
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.csprojAssemblyReference.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.csproj.CoreCompileInputs.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.RazorAssemblyInfo.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.RazorAssemblyInfo.cs
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.AssemblyInfoInputs.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.AssemblyInfo.cs
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.RazorTargetAssemblyInfo.cache
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.dll
+C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.pdb
