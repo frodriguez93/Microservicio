@@ -12,3 +12,18 @@ C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Sear
 C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search.Tests\obj\Debug\netcoreapp2.2\Lil.Search.Tests.AssemblyInfo.cs
 C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search.Tests\obj\Debug\netcoreapp2.2\Lil.Search.Tests.dll
 C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Search.Tests\obj\Debug\netcoreapp2.2\Lil.Search.Tests.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search.Tests\bin\Debug\netcoreapp2.2\Lil.Search.Tests.deps.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search.Tests\bin\Debug\netcoreapp2.2\Lil.Search.Tests.runtimeconfig.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search.Tests\bin\Debug\netcoreapp2.2\Lil.Search.Tests.runtimeconfig.dev.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search.Tests\bin\Debug\netcoreapp2.2\Lil.Search.Tests.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search.Tests\bin\Debug\netcoreapp2.2\Lil.Search.Tests.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search.Tests\obj\Debug\netcoreapp2.2\Lil.Search.Tests.csprojAssemblyReference.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search.Tests\obj\Debug\netcoreapp2.2\Lil.Search.Tests.AssemblyInfoInputs.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search.Tests\obj\Debug\netcoreapp2.2\Lil.Search.Tests.AssemblyInfo.cs
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search.Tests\obj\Debug\netcoreapp2.2\Lil.Search.Tests.csproj.CoreCompileInputs.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search.Tests\obj\Debug\netcoreapp2.2\Lil.Search.Tests.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search.Tests\obj\Debug\netcoreapp2.2\Lil.Search.Tests.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search.Tests\obj\Debug\netcoreapp2.2\Lil.Search.Tests.genruntimeconfig.cache

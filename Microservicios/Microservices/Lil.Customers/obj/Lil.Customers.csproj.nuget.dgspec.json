@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Félix Rodríguez A\\Documents\\Personal\\Cursos\\C#\\Microservices\\Lil.Customers\\Lil.Customers.csproj": {}
+    "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Félix Rodríguez A\\Documents\\Personal\\Cursos\\C#\\Microservices\\Lil.Customers\\Lil.Customers.csproj": {
+    "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Félix Rodríguez A\\Documents\\Personal\\Cursos\\C#\\Microservices\\Lil.Customers\\Lil.Customers.csproj",
+        "projectUniqueName": "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj",
         "projectName": "Lil.Customers",
-        "projectPath": "C:\\Users\\Félix Rodríguez A\\Documents\\Personal\\Cursos\\C#\\Microservices\\Lil.Customers\\Lil.Customers.csproj",
-        "packagesPath": "C:\\Users\\Félix Rodríguez A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Félix Rodríguez A\\Documents\\Personal\\Cursos\\C#\\Microservices\\Lil.Customers\\obj\\",
+        "projectPath": "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj",
+        "packagesPath": "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Félix Rodríguez A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\felixignaciorodrigue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,10 +60,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -15,3 +15,24 @@ C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Cust
 C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.csproj.CopyComplete
 C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.dll
 C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\appsettings.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Lil.Customers.Tests.deps.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Lil.Customers.Tests.runtimeconfig.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Lil.Customers.Tests.runtimeconfig.dev.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Lil.Customers.Tests.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Lil.Customers.Tests.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Lil.Customers.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.2\Lil.Customers.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.csprojAssemblyReference.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.AssemblyInfoInputs.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.AssemblyInfo.cs
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.csproj.CoreCompileInputs.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.csproj.CopyComplete
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.2\Lil.Customers.Tests.genruntimeconfig.cache

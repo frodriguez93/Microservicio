@@ -12,3 +12,21 @@ C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Cust
 C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.RazorTargetAssemblyInfo.cache
 C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.dll
 C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\bin\Debug\netcoreapp2.2\appsettings.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\bin\Debug\netcoreapp2.2\Lil.Customers.deps.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\bin\Debug\netcoreapp2.2\Lil.Customers.runtimeconfig.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\bin\Debug\netcoreapp2.2\Lil.Customers.runtimeconfig.dev.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\bin\Debug\netcoreapp2.2\Lil.Customers.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\bin\Debug\netcoreapp2.2\Lil.Customers.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.csprojAssemblyReference.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.AssemblyInfoInputs.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.AssemblyInfo.cs
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.csproj.CoreCompileInputs.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.RazorAssemblyInfo.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.RazorAssemblyInfo.cs
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.RazorTargetAssemblyInfo.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers\obj\Debug\netcoreapp2.2\Lil.Customers.genruntimeconfig.cache

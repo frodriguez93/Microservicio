@@ -12,3 +12,21 @@ C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Sale
 C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Sales\obj\Debug\netcoreapp2.2\Lil.Sales.RazorTargetAssemblyInfo.cache
 C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Sales\obj\Debug\netcoreapp2.2\Lil.Sales.dll
 C:\Users\Félix Rodríguez A\Documents\Personal\Cursos\C#\Microservices\Lil.Sales\obj\Debug\netcoreapp2.2\Lil.Sales.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\bin\Debug\netcoreapp2.2\appsettings.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\bin\Debug\netcoreapp2.2\Lil.Sales.deps.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\bin\Debug\netcoreapp2.2\Lil.Sales.runtimeconfig.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\bin\Debug\netcoreapp2.2\Lil.Sales.runtimeconfig.dev.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\bin\Debug\netcoreapp2.2\Lil.Sales.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\bin\Debug\netcoreapp2.2\Lil.Sales.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\obj\Debug\netcoreapp2.2\Lil.Sales.csprojAssemblyReference.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\obj\Debug\netcoreapp2.2\Lil.Sales.AssemblyInfoInputs.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\obj\Debug\netcoreapp2.2\Lil.Sales.AssemblyInfo.cs
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\obj\Debug\netcoreapp2.2\Lil.Sales.csproj.CoreCompileInputs.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\obj\Debug\netcoreapp2.2\Lil.Sales.RazorAssemblyInfo.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\obj\Debug\netcoreapp2.2\Lil.Sales.RazorAssemblyInfo.cs
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\obj\Debug\netcoreapp2.2\Lil.Sales.RazorTargetAssemblyInfo.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\obj\Debug\netcoreapp2.2\Lil.Sales.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\obj\Debug\netcoreapp2.2\Lil.Sales.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Sales\obj\Debug\netcoreapp2.2\Lil.Sales.genruntimeconfig.cache
