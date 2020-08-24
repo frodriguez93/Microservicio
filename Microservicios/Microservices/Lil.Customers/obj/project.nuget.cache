@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "V4tQ3TuWIeeWhxQn+YUg2NRwn+UoEqrq1+55FLhnzscQqxAsP6jqEAHSNf6a23F08W0udR+RoeI55UKWlPledQ==",
+  "dgSpecHash": "IqtNFHjTSC+RJQZU93b53LNoIJZ6O+6eOgYiL0EP4N8XD+shQ77Z+DuLYYPVGtm0iA1azEJqukJa7cLYekHmvw==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj",
   "expectedPackageFiles": [
@@ -72,7 +72,7 @@
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\2.1.1\\microsoft.aspnetcore.nodeservices.2.1.1.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.aspnetcore.owin\\2.1.1\\microsoft.aspnetcore.owin.2.1.1.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.1.1\\microsoft.aspnetcore.razor.2.1.1.nupkg.sha512",
-    "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.aspnetcore.razor.design\\2.2.0\\microsoft.aspnetcore.razor.design.2.2.0.nupkg.sha512",
+    "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.aspnetcore.razor.design\\2.1.2\\microsoft.aspnetcore.razor.design.2.1.2.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\2.1.1\\microsoft.aspnetcore.razor.language.2.1.1.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.1.1\\microsoft.aspnetcore.razor.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.aspnetcore.responsecaching\\2.1.1\\microsoft.aspnetcore.responsecaching.2.1.1.nupkg.sha512",
@@ -282,16 +282,5 @@
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.AspNetCore.App 2.1.1 requiere Microsoft.AspNetCore.Razor.Design (>= 2.1.1 && < 2.2.0), pero la versión Microsoft.AspNetCore.Razor.Design 2.2.0 ya se resolvió.",
-      "libraryId": "Microsoft.AspNetCore.Razor.Design",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
-      ]
-    }
-  ]
+  "logs": []
 }
