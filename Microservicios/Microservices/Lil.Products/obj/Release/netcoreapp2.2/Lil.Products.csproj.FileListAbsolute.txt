@@ -1,0 +1,17 @@
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\bin\Release\netcoreapp2.2\appsettings.Development.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\bin\Release\netcoreapp2.2\appsettings.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\bin\Release\netcoreapp2.2\Properties\launchSettings.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\bin\Release\netcoreapp2.2\Lil.Products.deps.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\bin\Release\netcoreapp2.2\Lil.Products.runtimeconfig.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\bin\Release\netcoreapp2.2\Lil.Products.runtimeconfig.dev.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\bin\Release\netcoreapp2.2\Lil.Products.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\bin\Release\netcoreapp2.2\Lil.Products.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\obj\Release\netcoreapp2.2\Lil.Products.AssemblyInfoInputs.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\obj\Release\netcoreapp2.2\Lil.Products.AssemblyInfo.cs
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\obj\Release\netcoreapp2.2\Lil.Products.csproj.CoreCompileInputs.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\obj\Release\netcoreapp2.2\Lil.Products.RazorAssemblyInfo.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\obj\Release\netcoreapp2.2\Lil.Products.RazorAssemblyInfo.cs
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\obj\Release\netcoreapp2.2\Lil.Products.RazorTargetAssemblyInfo.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\obj\Release\netcoreapp2.2\Lil.Products.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\obj\Release\netcoreapp2.2\Lil.Products.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Products\obj\Release\netcoreapp2.2\Lil.Products.genruntimeconfig.cache

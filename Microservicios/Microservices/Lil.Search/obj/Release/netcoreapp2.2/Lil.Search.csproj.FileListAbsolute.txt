@@ -1,0 +1,17 @@
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\bin\Release\netcoreapp2.2\appsettings.Development.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\bin\Release\netcoreapp2.2\appsettings.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\bin\Release\netcoreapp2.2\Properties\launchSettings.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\bin\Release\netcoreapp2.2\Lil.Search.deps.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\bin\Release\netcoreapp2.2\Lil.Search.runtimeconfig.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\bin\Release\netcoreapp2.2\Lil.Search.runtimeconfig.dev.json
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\bin\Release\netcoreapp2.2\Lil.Search.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\bin\Release\netcoreapp2.2\Lil.Search.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\obj\Release\netcoreapp2.2\Lil.Search.AssemblyInfoInputs.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\obj\Release\netcoreapp2.2\Lil.Search.AssemblyInfo.cs
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\obj\Release\netcoreapp2.2\Lil.Search.csproj.CoreCompileInputs.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\obj\Release\netcoreapp2.2\Lil.Search.RazorAssemblyInfo.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\obj\Release\netcoreapp2.2\Lil.Search.RazorAssemblyInfo.cs
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\obj\Release\netcoreapp2.2\Lil.Search.RazorTargetAssemblyInfo.cache
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\obj\Release\netcoreapp2.2\Lil.Search.dll
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\obj\Release\netcoreapp2.2\Lil.Search.pdb
+C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Search\obj\Release\netcoreapp2.2\Lil.Search.genruntimeconfig.cache

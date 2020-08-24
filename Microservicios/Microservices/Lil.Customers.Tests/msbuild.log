@@ -1,0 +1,1942 @@
+Compilación iniciada a las 24/08/2020 10:20:43.
+Entorno al principio de la compilación:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\felixignaciorodrigue\AppData\Roaming
+CommonProgramFiles = C:\Program Files\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = FELIXIGNACIFD46
+ComSpec = C:\Windows\system32\cmd.exe
+DOTNET_CLI_TELEMETRY_SESSIONID = ca3efdf2-c7ed-40da-baee-386daf8eb242
+DOTNET_HOST_PATH = C:\Program Files\dotnet\dotnet.exe
+DriverData = C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE = C:
+HOMEPATH = \Users\felixignaciorodrigue
+LOCALAPPDATA = C:\Users\felixignaciorodrigue\AppData\Local
+LOGONSERVER = \\FELIXIGNACIFD46
+MSBUILDENSURESTDOUTFORTASKPROCESSES = 1
+MSBuildExtensionsPath = C:\Program Files\dotnet\sdk\3.1.401\
+MSBuildLoadMicrosoftTargetsReadOnly = true
+MSBuildSDKsPath = C:\Program Files\dotnet\sdk\3.1.401\Sdks
+NUMBER_OF_PROCESSORS = 4
+OS = Windows_NT
+Path = C:\Program Files (x86)\Parallels\Parallels Tools\Applications;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\felixignaciorodrigue\AppData\Local\Microsoft\WindowsApps;C:\Users\felixignaciorodrigue\.dotnet\tools;C:\Users\felixignaciorodrigue\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\felixignaciorodrigue\AppData\Local\GitHubDesktop\bin;C:\Users\felixignaciorodrigue\AppData\Roaming\npm
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+PROCESSOR_ARCHITECTURE = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 8e0a
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = \\Mac\Home\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\FELIXI~1\AppData\Local\Temp
+TMP = C:\Users\FELIXI~1\AppData\Local\Temp
+USERDOMAIN = FELIXIGNACIFD46
+USERDOMAIN_ROAMINGPROFILE = FELIXIGNACIFD46
+USERNAME = felixignaciorodrigue
+USERPROFILE = C:\Users\felixignaciorodrigue
+windir = C:\Windows
+
+El nivel de detalle de registro está establecido en Diagnostic.10:20:43.443     0>Proceso: "C:\Program Files\dotnet\dotnet.exe"
+                   Ruta de acceso al ejecutable de MSBuild: "C:\Program Files\dotnet\sdk\3.1.401\MSBuild.dll"
+                   Argumentos de la línea de comandos: ""C:\Program Files\dotnet\sdk\3.1.401\MSBuild.dll" -maxcpucount -verbosity:m -target:VSTest -verbosity:quiet -nodereuse:false -nologo -property:VSTestNoBuild=true -property:TargetFramework=netcoreapp2.0 /flp:verbosity=diag "-distributedlogger:Microsoft.DotNet.Tools.MSBuild.MSBuildLogger,C:\Program Files\dotnet\sdk\3.1.401\dotnet.dll*Microsoft.DotNet.Tools.MSBuild.MSBuildForwardingLogger,C:\Program Files\dotnet\sdk\3.1.401\dotnet.dll""
+                   Directorio actual: "C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests"
+                   Versión de MSBuild: "16.7.0-preview-20360-03+188921e2f"
+                   Resolviendo SDK "Microsoft.NET.Sdk"...
+                   Reasignación de propiedad: $(MSBuildProjectExtensionsPath)="C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\" (valor anterior: "obj\") en C:\Program Files\dotnet\sdk\3.1.401\Current\Microsoft.Common.props (56,5)
+                   Reasignación de propiedad: $(MSBuildAllProjects)=";C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.props;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.props" (valor anterior: ";C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.props") en C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.props (16,5)
+                   Reasignación de propiedad: $(TargetsForTfmSpecificContentInPackage)=";PackTool;_PackProjectToolValidation" (valor anterior: ";PackTool") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.PackProjectTool.props (15,5)
+                   La propiedad "TargetFramework" es global y no se puede modificar.
+                   Reasignación de propiedad: $(PublishProfileImported)="false" (valor anterior: "true") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.ImportPublishProfile.targets (28,5)
+                   Reasignación de propiedad: $(DefaultItemExcludes)=";bin\Debug\/**;obj\Debug\/**" (valor anterior: ";bin\Debug\/**") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets (171,5)
+                   Reasignación de propiedad: $(IntermediateOutputPath)="obj\Debug\netcoreapp2.0\" (valor anterior: "obj\Debug\") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets (185,5)
+                   Reasignación de propiedad: $(OutputPath)="bin\Debug\netcoreapp2.0\" (valor anterior: "bin\Debug\") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets (186,5)
+                   Reasignación de propiedad: $(_FrameworkVersionForImplicitDefine)="2_0" (valor anterior: "2.0") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.BeforeCommon.targets (165,5)
+                   Reasignación de propiedad: $(_DebugSymbolsProduced)="true" (valor anterior: "false") en C:\Program Files\dotnet\sdk\3.1.401\Microsoft.Common.CurrentVersion.targets (149,5)
+                   Reasignación de propiedad: $(_DocumentationFileProduced)="false" (valor anterior: "true") en C:\Program Files\dotnet\sdk\3.1.401\Microsoft.Common.CurrentVersion.targets (158,5)
+                   Reasignación de propiedad: $(ProcessorArchitecture)="msil" (valor anterior: "") en C:\Program Files\dotnet\sdk\3.1.401\Microsoft.Common.CurrentVersion.targets (487,5)
+                   Reasignación de propiedad: $(DelaySign)="" (valor anterior: "false") en C:\Program Files\dotnet\sdk\3.1.401\Microsoft.Common.CurrentVersion.targets (527,5)
+                   Reasignación de propiedad: $(_SGenGenerateSerializationAssembliesConfig)="Auto" (valor anterior: "") en C:\Program Files\dotnet\sdk\3.1.401\Microsoft.Common.CurrentVersion.targets (3491,5)
+                   Reasignación de propiedad: $(_SGenGenerateSerializationAssembliesConfig)="Off" (valor anterior: "Auto") en C:\Program Files\dotnet\sdk\3.1.401\Microsoft.Common.CurrentVersion.targets (3492,5)
+                   Reasignación de propiedad: $(MSBuildAllProjects)=";C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.props;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.props;C:\Program Files\dotnet\sdk\3.1.401\NuGet.targets" (valor anterior: ";C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.props;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.props") en C:\Program Files\dotnet\sdk\3.1.401\NuGet.targets (45,5)
+                   Reasignación de propiedad: $(MSBuildAllProjects)=";C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.props;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.props;C:\Program Files\dotnet\sdk\3.1.401\NuGet.targets;C:\Program Files\dotnet\sdk\3.1.401\Current\Microsoft.Common.targets\ImportAfter\Microsoft.TestPlatform.ImportAfter.targets" (valor anterior: ";C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.props;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.props;C:\Program Files\dotnet\sdk\3.1.401\NuGet.targets") en C:\Program Files\dotnet\sdk\3.1.401\Current\Microsoft.Common.targets\ImportAfter\Microsoft.TestPlatform.ImportAfter.targets (16,5)
+                   Reasignación de propiedad: $(MSBuildAllProjects)=";C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.props;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.props;C:\Program Files\dotnet\sdk\3.1.401\NuGet.targets;C:\Program Files\dotnet\sdk\3.1.401\Current\Microsoft.Common.targets\ImportAfter\Microsoft.TestPlatform.ImportAfter.targets;C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.targets" (valor anterior: ";C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.props;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.props;C:\Program Files\dotnet\sdk\3.1.401\NuGet.targets;C:\Program Files\dotnet\sdk\3.1.401\Current\Microsoft.Common.targets\ImportAfter\Microsoft.TestPlatform.ImportAfter.targets") en C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.targets (4,5)
+                   Reasignación de propiedad: $(MSBuildAllProjects)=";C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.props;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.props;C:\Program Files\dotnet\sdk\3.1.401\NuGet.targets;C:\Program Files\dotnet\sdk\3.1.401\Current\Microsoft.Common.targets\ImportAfter\Microsoft.TestPlatform.ImportAfter.targets;C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.targets;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.targets" (valor anterior: ";C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.props;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.props;C:\Program Files\dotnet\sdk\3.1.401\NuGet.targets;C:\Program Files\dotnet\sdk\3.1.401\Current\Microsoft.Common.targets\ImportAfter\Microsoft.TestPlatform.ImportAfter.targets;C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.targets") en C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.targets (16,5)
+                   Reasignación de propiedad: $(OutputType)="Exe" (valor anterior: "Library") en C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.targets (24,5)
+                   Reasignación de propiedad: $(HasRuntimeOutput)="true" (valor anterior: "") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.Common.targets (37,5)
+                   Reasignación de propiedad: $(ProjectAssetsCacheFile)="C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.0\Lil.Customers.Tests.assets.cache" (valor anterior: "obj\Debug\netcoreapp2.0\Lil.Customers.Tests.assets.cache") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.PackageDependencyResolution.targets (29,5)
+                   Reasignación de propiedad: $(ResolveAssemblyReferencesDependsOn)="
+                         
+                         ResolveProjectReferences;
+                         FindInvalidProjectReferences;
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         PrepareForBuild;
+                         ResolveSDKReferences;
+                         ExpandSDKReferences;
+                       ;
+                         ResolvePackageDependenciesForBuild;
+                         _HandlePackageFileConflicts;
+                       " (valor anterior: "
+                         ResolveProjectReferences;
+                         FindInvalidProjectReferences;
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         PrepareForBuild;
+                         ResolveSDKReferences;
+                         ExpandSDKReferences;
+                       ") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.PackageDependencyResolution.targets (71,5)
+                   Reasignación de propiedad: $(PrepareResourcesDependsOn)="
+                         ResolvePackageDependenciesForBuild;
+                         _HandlePackageFileConflicts;
+                         
+                         ;
+                         PrepareResourceNames;
+                         ResGen;
+                         CompileLicxFiles
+                       
+                       " (valor anterior: "
+                         ;
+                         PrepareResourceNames;
+                         ResGen;
+                         CompileLicxFiles
+                       ") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.PackageDependencyResolution.targets (77,5)
+                   Reasignación de propiedad: $(DefaultItemExcludes)=";bin\Debug\/**;obj\Debug\/**;bin\/**" (valor anterior: ";bin\Debug\/**;obj\Debug\/**") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets (27,5)
+                   Reasignación de propiedad: $(DefaultItemExcludes)=";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**" (valor anterior: ";bin\Debug\/**;obj\Debug\/**;bin\/**") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets (29,5)
+                   Reasignación de propiedad: $(DefaultItemExcludes)=";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**;**/*.user" (valor anterior: ";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets (32,5)
+                   Reasignación de propiedad: $(DefaultItemExcludes)=";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**;**/*.user;**/*.*proj" (valor anterior: ";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**;**/*.user") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets (33,5)
+                   Reasignación de propiedad: $(DefaultItemExcludes)=";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**;**/*.user;**/*.*proj;**/*.sln" (valor anterior: ";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**;**/*.user;**/*.*proj") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets (34,5)
+                   Reasignación de propiedad: $(DefaultItemExcludes)=";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**;**/*.user;**/*.*proj;**/*.sln;**/*.vssscc" (valor anterior: ";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**;**/*.user;**/*.*proj;**/*.sln") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets (35,5)
+                   Reasignación de propiedad: $(ResolveAssemblyReferencesDependsOn)="
+                         
+                         
+                         ResolveProjectReferences;
+                         FindInvalidProjectReferences;
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         PrepareForBuild;
+                         ResolveSDKReferences;
+                         ExpandSDKReferences;
+                       ;
+                         ResolvePackageDependenciesForBuild;
+                         _HandlePackageFileConflicts;
+                       ;
+                         ResolveTargetingPackAssets;
+                       " (valor anterior: "
+                         
+                         ResolveProjectReferences;
+                         FindInvalidProjectReferences;
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         PrepareForBuild;
+                         ResolveSDKReferences;
+                         ExpandSDKReferences;
+                       ;
+                         ResolvePackageDependenciesForBuild;
+                         _HandlePackageFileConflicts;
+                       ") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets (14,5)
+                   Reasignación de propiedad: $(_GenerateRuntimeConfigurationPropertyInputsCache)="C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.0\Lil.Customers.Tests.genruntimeconfig.cache" (valor anterior: "obj\Debug\netcoreapp2.0\Lil.Customers.Tests.genruntimeconfig.cache") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (53,5)
+                   Reasignación de propiedad: $(_DefaultUserProfileRuntimeStorePath)="C:\Users\felixignaciorodrigue" (valor anterior: "") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (96,5)
+                   Reasignación de propiedad: $(_DefaultUserProfileRuntimeStorePath)="C:\Users\felixignaciorodrigue\.dotnet\store" (valor anterior: "C:\Users\felixignaciorodrigue") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (97,5)
+                   Reasignación de propiedad: $(CoreBuildDependsOn)="
+                         _CheckForBuildWithNoBuild;
+                         
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         PreBuildEvent;
+                         ResolveReferences;
+                         PrepareResources;
+                         ResolveKeySource;
+                         Compile;
+                         ExportWindowsMDFile;
+                         UnmanagedUnregistration;
+                         GenerateSerializationAssemblies;
+                         CreateSatelliteAssemblies;
+                         GenerateManifests;
+                         GetTargetPath;
+                         PrepareForRun;
+                         UnmanagedRegistration;
+                         IncrementalClean;
+                         PostBuildEvent
+                       ;
+                         GenerateBuildDependencyFile;
+                         GenerateBuildRuntimeConfigurationFiles
+                       " (valor anterior: "
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         PreBuildEvent;
+                         ResolveReferences;
+                         PrepareResources;
+                         ResolveKeySource;
+                         Compile;
+                         ExportWindowsMDFile;
+                         UnmanagedUnregistration;
+                         GenerateSerializationAssemblies;
+                         CreateSatelliteAssemblies;
+                         GenerateManifests;
+                         GetTargetPath;
+                         PrepareForRun;
+                         UnmanagedRegistration;
+                         IncrementalClean;
+                         PostBuildEvent
+                       ") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (118,5)
+                   Reasignación de propiedad: $(CoreCleanDependsOn)="
+                         _SdkBeforeClean;
+                         
+                       " (valor anterior: "") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (127,5)
+                   Reasignación de propiedad: $(RebuildDependsOn)="
+                         _SdkBeforeRebuild;
+                         
+                         BeforeRebuild;
+                         Clean;
+                         Build;
+                         AfterRebuild;
+                       
+                       " (valor anterior: "
+                         BeforeRebuild;
+                         Clean;
+                         Build;
+                         AfterRebuild;
+                       ") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (134,5)
+                   Reasignación de propiedad: $(CompileDependsOn)="
+                         
+                         ResolveReferences;
+                         ResolveKeySource;
+                         SetWin32ManifestProperties;
+                         FindReferenceAssembliesForReferences;
+                         _GenerateCompileInputs;
+                         BeforeCompile;
+                         _TimeStampBeforeCompile;
+                         _GenerateCompileDependencyCache;
+                         CoreCompile;
+                         _TimeStampAfterCompile;
+                         AfterCompile;
+                       ;
+                         _CreateAppHost;
+                         _CreateComHost;
+                         _GetIjwHostPaths;
+                       " (valor anterior: "
+                         ResolveReferences;
+                         ResolveKeySource;
+                         SetWin32ManifestProperties;
+                         FindReferenceAssembliesForReferences;
+                         _GenerateCompileInputs;
+                         BeforeCompile;
+                         _TimeStampBeforeCompile;
+                         _GenerateCompileDependencyCache;
+                         CoreCompile;
+                         _TimeStampAfterCompile;
+                         AfterCompile;
+                       ") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (396,5)
+                   Reasignación de propiedad: $(CreateSatelliteAssembliesDependsOn)="
+                         
+                         _GenerateSatelliteAssemblyInputs;
+                         ComputeIntermediateSatelliteAssemblies;
+                         GenerateSatelliteAssemblies
+                       ;
+                         CoreGenerateSatelliteAssemblies
+                       " (valor anterior: "
+                         _GenerateSatelliteAssemblyInputs;
+                         ComputeIntermediateSatelliteAssemblies;
+                         GenerateSatelliteAssemblies
+                       ") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (758,5)
+                   Reasignación de propiedad: $(DesignerRuntimeImplementationProjectOutputGroupDependsOn)="
+                         
+                         ;
+                         
+                         ;
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         AssignTargetPaths;
+                         ResolveReferences
+                       
+                       ;
+                         _GenerateDesignerDepsFile;
+                         _GenerateDesignerRuntimeConfigFile;
+                         _GatherDesignerShadowCopyFiles;
+                       " (valor anterior: "
+                         ;
+                         
+                         ;
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         AssignTargetPaths;
+                         ResolveReferences
+                       
+                       ") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DesignerSupport.targets (21,5)
+                   Reasignación de propiedad: $(_ShimInputCacheFile)="C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.0\Lil.Customers.Tests.shiminput.cache" (valor anterior: "obj\Debug\netcoreapp2.0\Lil.Customers.Tests.shiminput.cache") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.PackTool.targets (94,5)
+                   Reasignación de propiedad: $(_ShimCreatedSentinelFile)="C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.0\Lil.Customers.Tests.shimcreated.sentinel" (valor anterior: "obj\Debug\netcoreapp2.0\Lil.Customers.Tests.shimcreated.sentinel") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.PackTool.targets (96,5)
+                   Reasignación de propiedad: $(DefineConstants)="TRACE;DEBUG" (valor anterior: "TRACE") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.CSharp.targets (31,5)
+                   Reasignación de propiedad: $(DefineConstants)="TRACE;DEBUG;NETCOREAPP;NETCOREAPP2_0" (valor anterior: "TRACE;DEBUG") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.CSharp.targets (34,5)
+                   Resolviendo SDK "ILLink.Tasks"...
+                   Reasignación de propiedad: $(MSBuildAllProjects)=";C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.props;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.props;C:\Program Files\dotnet\sdk\3.1.401\NuGet.targets;C:\Program Files\dotnet\sdk\3.1.401\Current\Microsoft.Common.targets\ImportAfter\Microsoft.TestPlatform.ImportAfter.targets;C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.targets;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.targets;C:\Program Files\dotnet\sdk\3.1.401\Sdks\NuGet.Build.Tasks.Pack\build\NuGet.Build.Tasks.Pack.targets" (valor anterior: ";C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.props;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.props;C:\Program Files\dotnet\sdk\3.1.401\NuGet.targets;C:\Program Files\dotnet\sdk\3.1.401\Current\Microsoft.Common.targets\ImportAfter\Microsoft.TestPlatform.ImportAfter.targets;C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.targets;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.targets") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\NuGet.Build.Tasks.Pack\build\NuGet.Build.Tasks.Pack.targets (18,5)
+                   Reasignación de propiedad: $(PackageDescription)="Package Description" (valor anterior: "") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\NuGet.Build.Tasks.Pack\build\NuGet.Build.Tasks.Pack.targets (32,5)
+                   Reasignación de propiedad: $(GenerateNuspecDependsOn)="Build;_LoadPackInputItems; _GetTargetFrameworksOutput; _WalkEachTargetPerFramework; _GetPackageFiles; " (valor anterior: "_LoadPackInputItems; _GetTargetFrameworksOutput; _WalkEachTargetPerFramework; _GetPackageFiles; ") en C:\Program Files\dotnet\sdk\3.1.401\Sdks\NuGet.Build.Tasks.Pack\build\NuGet.Build.Tasks.Pack.targets (55,5)
+                   Invalidando el destino "GetTargetFrameworkProperties" del proyecto"C:\Program Files\dotnet\sdk\3.1.401\Microsoft.Common.CurrentVersion.targets" con el destino "GetTargetFrameworkProperties" del proyecto "C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.Common.targets".
+                   Invalidando el destino "ResolveFrameworkReferences" del proyecto"C:\Program Files\dotnet\sdk\3.1.401\Microsoft.Common.CurrentVersion.targets" con el destino "ResolveFrameworkReferences" del proyecto "C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets".
+                   Invalidando el destino "GetReferenceAssemblyPaths" del proyecto"C:\Program Files\dotnet\sdk\3.1.401\Microsoft.Common.CurrentVersion.targets" con el destino "GetReferenceAssemblyPaths" del proyecto "C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DisableStandardFrameworkResolution.targets".
+                   Invalidando el destino "GetFrameworkPaths" del proyecto"C:\Program Files\dotnet\sdk\3.1.401\Microsoft.Common.CurrentVersion.targets" con el destino "GetFrameworkPaths" del proyecto "C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DisableStandardFrameworkResolution.targets".
+                   Invalidando el destino "DesignerRuntimeImplementationProjectOutputGroup" del proyecto"C:\Program Files\dotnet\sdk\3.1.401\Microsoft.Common.CurrentVersion.targets" con el destino "DesignerRuntimeImplementationProjectOutputGroup" del proyecto "C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DesignerSupport.targets".
+                   Invalidando el destino "Publish" del proyecto"C:\Program Files\dotnet\sdk\3.1.401\Microsoft.Common.CurrentVersion.targets" con el destino "Publish" del proyecto "C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Publish.targets".
+                   Invalidando el destino "GetCopyToPublishDirectoryItems" del proyecto"C:\Program Files\dotnet\sdk\3.1.401\Microsoft.Common.CurrentVersion.targets" con el destino "GetCopyToPublishDirectoryItems" del proyecto "C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Publish.targets".
+10:20:43.922     1>Proyecto "C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\Lil.Customers.Tests.csproj" en el nodo 1 (VSTest destinos).
+10:20:43.922     1>Propiedades iniciales:
+                   _BeforePublishNoBuildTargets = 
+                         BuildOnlySettings;
+                         _PreventProjectReferencesFromBuilding;
+                         ResolveReferences;
+                         PrepareResourceNames;
+                         ComputeIntermediateSatelliteAssemblies;
+                         ComputeEmbeddedApphostPaths;
+                       
+                   _CorePublishTargets = 
+                         PrepareForPublish;
+                         ComputeAndCopyFilesToPublishDirectory;
+                         GeneratePublishDependencyFile;
+                         BundlePublishDirectory;
+                       
+                   _DebugSymbolsProduced = true
+                   _DefaultUserProfileRuntimeStorePath = C:\Users\felixignaciorodrigue\.dotnet\store
+                   _DeploymentApplicationManifestIdentity = Native.Lil.Customers.Tests
+                   _DeploymentBuiltUpdateInterval = 0
+                   _DeploymentBuiltUpdateIntervalUnits = Days
+                   _DeploymentDeployManifestIdentity = Lil.Customers.Tests.application
+                   _DeploymentFileMappingExtension = 
+                   _DeploymentTargetApplicationManifestFileName = Native.Lil.Customers.Tests.manifest
+                   _DeploymentUrl = 
+                   _DesignerDepsFileName = Lil.Customers.Tests.designer.deps.json
+                   _DesignerDepsFilePath = obj\Debug\netcoreapp2.0\Lil.Customers.Tests.designer.deps.json
+                   _DesignerRuntimeConfigFileName = Lil.Customers.Tests.designer.runtimeconfig.json
+                   _DesignerRuntimeConfigFilePath = obj\Debug\netcoreapp2.0\Lil.Customers.Tests.designer.runtimeconfig.json
+                   _DirectoryBuildPropsBasePath = 
+                   _DirectoryBuildPropsFile = Directory.Build.props
+                   _DirectoryBuildTargetsBasePath = 
+                   _DirectoryBuildTargetsFile = Directory.Build.targets
+                   _DirectoryPackagesPropsBasePath = 
+                   _DirectoryPackagesPropsFile = Directory.Packages.props
+                   _DocumentationFileProduced = false
+                   _DotNetAppHostExecutableName = apphost
+                   _DotNetAppHostExecutableNameWithoutExtension = apphost
+                   _DotNetComHostLibraryName = comhost
+                   _DotNetComHostLibraryNameWithoutExtension = comhost
+                   _DotNetHostExecutableName = dotnet
+                   _DotNetHostFxrLibraryName = libhostfxr.so
+                   _DotNetHostPolicyLibraryName = libhostpolicy.so
+                   _DotNetIjwHostLibraryName = Ijwhost
+                   _DotNetIjwHostLibraryNameWithoutExtension = Ijwhost
+                   _FrameworkIdentifierForImplicitDefine = NETCOREAPP
+                   _FrameworkVersionForImplicitDefine = 2_0
+                   _GenerateBindingRedirectsIntermediateAppConfig = obj\Debug\netcoreapp2.0\Lil.Customers.Tests.dll.config
+                   _GenerateRestoreGraphProjectEntryInputProperties = ExcludeRestorePackageImports=true
+                   _GenerateRuntimeConfigurationPropertyInputsCache = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.0\Lil.Customers.Tests.genruntimeconfig.cache
+                   _GenerateSupportedRuntimeIntermediateAppConfig = obj\Debug\netcoreapp2.0\Lil.Customers.Tests.dll.withSupportedRuntime.config
+                   _GetChildProjectCopyToOutputDirectoryItems = true
+                   _GetChildProjectCopyToPublishDirectoryItems = true
+                   _ILLinkTasksDirectory = C:\Program Files\dotnet\sdk\3.1.401\Sdks\ILLink.Tasks\Sdk\../tools/netcoreapp2.0/
+                   _ILLinkTasksDirectoryRoot = C:\Program Files\dotnet\sdk\3.1.401\Sdks\ILLink.Tasks\Sdk\../tools/
+                   _ILLinkTasksTFM = netcoreapp2.0
+                   _InitialBaseIntermediateOutputPath = obj\
+                   _InitialMSBuildProjectExtensionsPath = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\
+                   _IsExecutable = true
+                   _IsNETCoreOrNETStandard = true
+                   _MaxSupportedLangVersion = 7.3
+                   _Microsoft_NETCore_App_Version = 2.2.0
+                   _NativeLibraryExtension = .so
+                   _NativeLibraryPrefix = lib
+                   _NetCoreRunArguments = exec "C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.0\Lil.Customers.Tests.dll"
+                   _NETCoreSdkIsPreview = false
+                   _NugetFallbackFolder = C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\..\..\..\..\NuGetFallbackFolder
+                   _NugetTargetMonikerAndRID = .NETCoreApp,Version=v2.0
+                   _OriginalConfiguration = Debug
+                   _OriginalPlatform = AnyCPU
+                   _PackToolPublishDependency = _PublishBuildAlternative
+                   _PlatformWithoutConfigurationInference = AnyCPU
+                   _ProjectDefaultTargets = Build
+                   _PublishNoBuildAlternativeDependsOn = 
+                         BuildOnlySettings;
+                         _PreventProjectReferencesFromBuilding;
+                         ResolveReferences;
+                         PrepareResourceNames;
+                         ComputeIntermediateSatelliteAssemblies;
+                         ComputeEmbeddedApphostPaths;
+                       ;
+                         PrepareForPublish;
+                         ComputeAndCopyFilesToPublishDirectory;
+                         GeneratePublishDependencyFile;
+                         BundlePublishDirectory;
+                       
+                   _PublishProfileDesignerFolder = Properties
+                   _PublishProfileRootFolder = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\Properties\PublishProfiles\
+                   _RecursiveTargetForContentCopying = GetCopyToOutputDirectoryItems
+                   _ResolveReferenceDependencies = false
+                   _SGenDllCreated = false
+                   _SGenDllName = Lil.Customers.Tests.XmlSerializers.dll
+                   _SGenGenerateSerializationAssembliesConfig = Off
+                   _ShimCreatedSentinelFile = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.0\Lil.Customers.Tests.shimcreated.sentinel
+                   _ShimInputCacheFile = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.0\Lil.Customers.Tests.shiminput.cache
+                   _ShortFrameworkIdentifier = netcoreapp
+                   _ShortFrameworkVersion = 2.0
+                   _TargetFrameworkDirectories = 
+                   _TargetFrameworkVersionWithoutV = 2.0
+                   _TargetLatestRuntimePatchIsDefault = true
+                   _TargetsThatPrepareProjectReferences = _SplitProjectReferencesByFileExistence
+                   _ToolsSettingsFilePath = obj\DotnetToolSettings.xml
+                   _UsingDefaultForHasRuntimeOutput = true
+                   _UsingDefaultPlatformTarget = true
+                   AddAdditionalExplicitAssemblyReferences = false
+                   AllowedOutputExtensionsInPackageBuildOutputFolder = .dll; .exe; .winmd; .json; .pri; .xml; 
+                   AllowedOutputExtensionsInSymbolsPackageBuildOutputFolder = .pdb; .mdb; .dll; .exe; .winmd; .json; .pri; .xml; ; 
+                   AllowedReferenceAssemblyFileExtensions = 
+                         .winmd;
+                         .dll;
+                         .exe
+                       
+                   AllowedReferenceRelatedFileExtensions = 
+                         .pdb;
+                         .xml;
+                         .pri;
+                         .dll.config;
+                         .exe.config
+                       
+                   AllowUnsafeBlocks = false
+                   ALLUSERSPROFILE = C:\ProgramData
+                   AlwaysUseNumericalSuffixInItemNames = true
+                   APPDATA = C:\Users\felixignaciorodrigue\AppData\Roaming
+                   AppDesignerFolder = Properties
+                   AppendRuntimeIdentifierToOutputPath = true
+                   AppendTargetFrameworkToOutputPath = true
+                   AssemblyFoldersConfigFile = \AssemblyFolders.config
+                   AssemblyFoldersSuffix = AssemblyFoldersEx
+                   AssemblyName = Lil.Customers.Tests
+                   AssemblySearchPaths = {CandidateAssemblyFiles};{HintPathFromItem};{TargetFrameworkDirectory};{RawFileName}
+                   AssemblyTitle = Lil.Customers.Tests
+                   AssetTargetFallback = ;net461;net462;net47;net471;net472;net48
+                   AssignTargetPathsDependsOn = 
+                   Authors = Lil.Customers.Tests
+                   AutoUnifyAssemblyReferences = true
+                   AvailablePlatforms = Any CPU,x86,x64
+                   BaseIntermediateOutputPath = obj\
+                   BaseOutputPath = bin\
+                   BuildCompileAction = Build
+                   BuildDependsOn = 
+                         BeforeBuild;
+                         CoreBuild;
+                         AfterBuild
+                       
+                   BuildGenerateSourcesAction = Build
+                   BuildingProject = false
+                   BuildInParallel = true
+                   BuildLinkAction = Build
+                   BuildOutputTargetFolder = lib
+                   BuildProjectReferences = true
+                   BuiltProjectOutputGroupDependenciesDependsOn = 
+                         ;
+                         
+                         ;
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         AssignTargetPaths;
+                         ResolveReferences
+                       
+                       
+                   BuiltProjectOutputGroupDependsOn = PrepareForBuild
+                   BundledNETCoreAppPackageVersion = 3.1.7
+                   BundledNETCoreAppTargetFrameworkVersion = 3.1
+                   BundledNETCorePlatformsPackageVersion = 3.1.2
+                   BundledNETStandardPackageVersion = 2.1.0
+                   BundledNETStandardTargetFrameworkVersion = 2.1
+                   BundledRuntimeIdentifierGraphFile = C:\Program Files\dotnet\sdk\3.1.401\RuntimeIdentifierGraph.json
+                   CheckForOverflowUnderflow = false
+                   CleanDependsOn = 
+                         BeforeClean;
+                         UnmanagedUnregistration;
+                         CoreClean;
+                         CleanReferencedProjects;
+                         CleanPublishFolder;
+                         AfterClean
+                       
+                   CleanFile = Lil.Customers.Tests.csproj.FileListAbsolute.txt
+                   CodeAnalysisTargets = C:\Program Files\dotnet\sdk\3.1.401\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets
+                   CommonOutputGroupsDependsOn = 
+                         ;
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         AssignTargetPaths;
+                         ResolveReferences
+                       
+                   CommonProgramFiles = C:\Program Files\Common Files
+                   CommonProgramW6432 = C:\Program Files\Common Files
+                   CommonTargetsPath = C:\Program Files\dotnet\sdk\3.1.401\Microsoft.Common.CurrentVersion.targets
+                   CommonXamlResourcesDirectory = C:\Program Files\dotnet\sdk\3.1.401\\
+                   Company = Lil.Customers.Tests
+                   CompileDependsOn = 
+                         
+                         ResolveReferences;
+                         ResolveKeySource;
+                         SetWin32ManifestProperties;
+                         FindReferenceAssembliesForReferences;
+                         _GenerateCompileInputs;
+                         BeforeCompile;
+                         _TimeStampBeforeCompile;
+                         _GenerateCompileDependencyCache;
+                         CoreCompile;
+                         _TimeStampAfterCompile;
+                         AfterCompile;
+                       ;
+                         _CreateAppHost;
+                         _CreateComHost;
+                         _GetIjwHostPaths;
+                       
+                   CompileLicxFilesDependsOn = 
+                   ComputeIntermediateSatelliteAssembliesDependsOn = 
+                         CreateManifestResourceNames
+                       
+                   ComputeNETCoreBuildOutputFiles = true
+                   COMPUTERNAME = FELIXIGNACIFD46
+                   ComReferenceExecuteAsTool = false
+                   ComReferenceNoClassMembers = false
+                   ComSpec = C:\Windows\system32\cmd.exe
+                   Configuration = Debug
+                   ConfigurationName = Debug
+                   Configurations = Debug;Release
+                   ConsiderPlatformAsProcessorArchitecture = true
+                   ContentFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+                   ContentPreprocessorOutputDirectory = obj\Debug\netcoreapp2.0\NuGet\
+                   ContentTargetFolders = content;contentFiles
+                   ContinueOnError = false
+                   CopyBuildOutputToPublishDirectory = true
+                   CopyLocalLockFileAssemblies = false
+                   CopyOutputSymbolsToPublishDirectory = true
+                   CoreBuildDependsOn = 
+                         _CheckForBuildWithNoBuild;
+                         
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         PreBuildEvent;
+                         ResolveReferences;
+                         PrepareResources;
+                         ResolveKeySource;
+                         Compile;
+                         ExportWindowsMDFile;
+                         UnmanagedUnregistration;
+                         GenerateSerializationAssemblies;
+                         CreateSatelliteAssemblies;
+                         GenerateManifests;
+                         GetTargetPath;
+                         PrepareForRun;
+                         UnmanagedRegistration;
+                         IncrementalClean;
+                         PostBuildEvent
+                       ;
+                         GenerateBuildDependencyFile;
+                         GenerateBuildRuntimeConfigurationFiles
+                       
+                   CoreCleanDependsOn = 
+                         _SdkBeforeClean;
+                         
+                       
+                   CoreCompileDependsOn = ;_ComputeNonExistentFileProperty;ResolveCodeAnalysisRuleSet
+                   CoreResGenDependsOn = FindReferenceAssembliesForReferences
+                   CreateCustomManifestResourceNamesDependsOn = 
+                   CreateHardLinksForCopyAdditionalFilesIfPossible = false
+                   CreateManifestResourceNamesDependsOn = 
+                   CreateSatelliteAssembliesDependsOn = 
+                         
+                         _GenerateSatelliteAssemblyInputs;
+                         ComputeIntermediateSatelliteAssemblies;
+                         GenerateSatelliteAssemblies
+                       ;
+                         CoreGenerateSatelliteAssemblies
+                       
+                   CreateSymbolicLinksForCopyAdditionalFilesIfPossible = false
+                   CSharpCoreTargetsPath = C:\Program Files\dotnet\sdk\3.1.401\Roslyn\Microsoft.CSharp.Core.targets
+                   CSharpDesignTimeTargetsPath = C:\Program Files\dotnet\sdk\3.1.401\\Microsoft\VisualStudio\Managed\Microsoft.CSharp.DesignTime.targets
+                   CSharpTargetsPath = C:\Program Files\dotnet\sdk\3.1.401\Microsoft.CSharp.CurrentVersion.targets
+                   CustomAfterMicrosoftCommonProps = C:\Program Files\dotnet\sdk\3.1.401\\vCurrent\Custom.After.Microsoft.Common.props
+                   CustomAfterMicrosoftCommonTargets = C:\Program Files\dotnet\sdk\3.1.401\\vCurrent\Custom.After.Microsoft.Common.targets
+                   CustomAfterMicrosoftCSharpTargets = C:\Program Files\dotnet\sdk\3.1.401\\vCurrent\Custom.After.Microsoft.CSharp.targets
+                   CustomBeforeMicrosoftCommonProps = C:\Program Files\dotnet\sdk\3.1.401\\vCurrent\Custom.Before.Microsoft.Common.props
+                   CustomBeforeMicrosoftCommonTargets = C:\Program Files\dotnet\sdk\3.1.401\\vCurrent\Custom.Before.Microsoft.Common.targets
+                   CustomBeforeMicrosoftCSharpTargets = C:\Program Files\dotnet\sdk\3.1.401\\vCurrent\Custom.Before.Microsoft.CSharp.targets
+                   DebugSymbols = true
+                   DebugSymbolsProjectOutputGroupDependenciesDependsOn = 
+                         ;
+                         
+                         ;
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         AssignTargetPaths;
+                         ResolveReferences
+                       
+                       
+                   DebugSymbolsProjectOutputGroupDependsOn = 
+                   DebugType = portable
+                   DefaultCopyToPublishDirectoryMetadata = true
+                   DefaultExcludesInProjectFolder = ;**/.*/**
+                   DefaultImplicitPackages = Microsoft.NETCore.App;NETStandard.Library
+                   DefaultItemExcludes = ;bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**;**/*.user;**/*.*proj;**/*.sln;**/*.vssscc
+                   DefaultLanguageSourceExtension = .cs
+                   DefaultProjectTypeGuid = {FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}
+                   DefineCommonCapabilities = true
+                   DefineCommonItemSchemas = true
+                   DefineCommonReferenceSchemas = true
+                   DefineConstants = TRACE;DEBUG;NETCOREAPP;NETCOREAPP2_0
+                   DelaySign = 
+                   DesignerRuntimeImplementationProjectOutputGroupDependsOn = 
+                         
+                         ;
+                         
+                         ;
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         AssignTargetPaths;
+                         ResolveReferences
+                       
+                       ;
+                         _GenerateDesignerDepsFile;
+                         _GenerateDesignerRuntimeConfigFile;
+                         _GatherDesignerShadowCopyFiles;
+                       
+                   DesignTimeAssemblySearchPaths = {CandidateAssemblyFiles};{HintPathFromItem};{TargetFrameworkDirectory};{RawFileName}
+                   DesignTimeAutoUnify = true
+                   DesignTimeResolveAssemblyReferencesDependsOn = 
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         ResolveReferences
+                       
+                   Deterministic = true
+                   DevEnvDir = *Undefined*
+                   DisableHandlePackageFileConflicts = true
+                   DisableLogTaskParameter_ConvertToAbsolutePath_Path = true
+                   DisableLogTaskParameter_FindUnderPath_OutOfPath = true
+                   DisableLogTaskParameter_RemoveDuplicates_Inputs = true
+                   DisableLogTaskParameterItemMetadata_ConvertToAbsolutePath_AbsolutePaths = true
+                   DisableLogTaskParameterItemMetadata_Copy_CopiedFiles = true
+                   DisableLogTaskParameterItemMetadata_Copy_DestinationFiles = true
+                   DisableLogTaskParameterItemMetadata_Copy_SourceFiles = true
+                   DisableLogTaskParameterItemMetadata_FindUnderPath_Files = true
+                   DisableLogTaskParameterItemMetadata_FindUnderPath_InPath = true
+                   DisableLogTaskParameterItemMetadata_GenerateResource_FilesWritten = true
+                   DisableLogTaskParameterItemMetadata_Hash_ItemsToHash = true
+                   DisableLogTaskParameterItemMetadata_RemoveDuplicates_Filtered = true
+                   DisableLogTaskParameterItemMetadata_WriteLinesToFile_Lines = true
+                   DisableStandardFrameworkResolution = true
+                   DocumentationFile = 
+                   DocumentationProjectOutputGroupDependenciesDependsOn = 
+                         ;
+                         
+                         ;
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         AssignTargetPaths;
+                         ResolveReferences
+                       
+                       
+                   DocumentationProjectOutputGroupDependsOn = 
+                   DOTNET_CLI_TELEMETRY_SESSIONID = ca3efdf2-c7ed-40da-baee-386daf8eb242
+                   DOTNET_HOST_PATH = C:\Program Files\dotnet\dotnet.exe
+                   DotnetCliToolTargetFramework = netcoreapp2.2
+                   DriverData = C:\Windows\System32\Drivers\DriverData
+                   EmbeddedWin32Manifest = 
+                   EmitAssetsLogMessages = true
+                   EmitLegacyAssetsFileItems = false
+                   EnableDefaultCompileItems = true
+                   EnableDefaultEmbeddedResourceItems = true
+                   EnableDefaultItems = true
+                   EnableDefaultNoneItems = true
+                   EnableFrameworkPathOverride = false
+                   EnableWebSdkImplicitPackageVersions = false
+                   ErrorReport = prompt
+                   ExpandSDKAllowedReferenceExtensions = 
+                         .winmd;
+                         .dll
+                       
+                   ExpandSDKReferencesDependsOn = 
+                         ResolveSDKReferences
+                       
+                   FileAlignment = 512
+                   FindInvalidProjectReferencesDependsOn = 
+                         GetReferenceTargetPlatformMonikers
+                       
+                   Framework20Dir = @(_TargetFramework20DirectoryItem)
+                   Framework30Dir = @(_TargetFramework30DirectoryItem)
+                   Framework35Dir = @(_TargetFramework35DirectoryItem)
+                   Framework40Dir = @(_TargetFramework40DirectoryItem)
+                   FrameworkDir = @(_TargetFramework20DirectoryItem)
+                   FrameworkPathOverride = 
+                   FrameworkRegistryBase = Software\Microsoft\.NETCoreApp
+                   FrameworkSDKDir = @(_TargetFrameworkSDKDirectoryItem)
+                   FullReferenceAssemblyNames = Full
+                   GenerateAssemblyCompanyAttribute = true
+                   GenerateAssemblyConfigurationAttribute = true
+                   GenerateAssemblyCopyrightAttribute = true
+                   GenerateAssemblyDescriptionAttribute = true
+                   GenerateAssemblyFileVersionAttribute = true
+                   GenerateAssemblyInfo = true
+                   GenerateAssemblyInformationalVersionAttribute = true
+                   GenerateAssemblyProductAttribute = true
+                   GenerateAssemblyTitleAttribute = true
+                   GenerateAssemblyVersionAttribute = true
+                   GeneratedAssemblyInfoFile = obj\Debug\netcoreapp2.0\Lil.Customers.Tests.AssemblyInfo.cs
+                   GenerateDependencyFile = true
+                   GeneratedMSBuildEditorConfigFile = obj\Debug\netcoreapp2.0\Lil.Customers.Tests.GeneratedMSBuildEditorConfig.editorconfig
+                   GenerateDocumentationFile = false
+                   GeneratedProgramFile = C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.Program.cs
+                   GenerateManifestsDependsOn = 
+                         SetWin32ManifestProperties;
+                         GenerateApplicationManifest;
+                         GenerateDeploymentManifest
+                       
+                   GenerateMSBuildEditorConfigFile = true
+                   GenerateNeutralResourcesLanguageAttribute = true
+                   GenerateNuspecDependsOn = Build;_LoadPackInputItems; _GetTargetFrameworksOutput; _WalkEachTargetPerFramework; _GetPackageFiles; 
+                   GeneratePackageOnBuild = false
+                   GenerateProgramFile = true
+                   GenerateResourceMSBuildArchitecture = CurrentArchitecture
+                   GenerateResourceMSBuildRuntime = CurrentRuntime
+                   GenerateRuntimeConfigurationFiles = true
+                   GenerateSatelliteAssembliesForCore = true
+                   GenerateTargetFrameworkAttribute = true
+                   GetCopyToOutputDirectoryItemsDependsOn = 
+                         AssignTargetPaths;
+                         _SplitProjectReferencesByFileExistence;
+                         _GetProjectReferenceTargetFrameworkProperties;
+                         _PopulateCommonStateForGetCopyToOutputDirectoryItems
+                       
+                   GetFrameworkPathsDependsOn = 
+                   GetTargetPathDependsOn = 
+                   GetTargetPathWithTargetPlatformMonikerDependsOn = 
+                   HasRuntimeOutput = true
+                   HideWarningsAndErrors = false
+                   HighEntropyVA = true
+                   HOMEDRIVE = C:
+                   HOMEPATH = \Users\felixignaciorodrigue
+                   ILLinkTasksAssembly = C:\Program Files\dotnet\sdk\3.1.401\Sdks\ILLink.Tasks\Sdk\../tools/netcoreapp2.0/ILLink.Tasks.dll
+                   ImplicitConfigurationDefine = DEBUG
+                   ImplicitFrameworkDefine = NETCOREAPP2_0
+                   ImportByWildcardAfterMicrosoftCommonProps = true
+                   ImportByWildcardAfterMicrosoftCommonTargets = true
+                   ImportByWildcardAfterMicrosoftCSharpTargets = true
+                   ImportByWildcardBeforeMicrosoftCommonProps = true
+                   ImportByWildcardBeforeMicrosoftCommonTargets = true
+                   ImportByWildcardBeforeMicrosoftCSharpTargets = true
+                   ImportDirectoryBuildProps = true
+                   ImportDirectoryBuildTargets = true
+                   ImportDirectoryPackagesProps = true
+                   ImportNuGetBuildTasksPackTargetsFromSdk = true
+                   ImportProjectExtensionProps = true
+                   ImportProjectExtensionTargets = true
+                   ImportUserLocationsByWildcardAfterMicrosoftCommonProps = true
+                   ImportUserLocationsByWildcardAfterMicrosoftCommonTargets = true
+                   ImportUserLocationsByWildcardAfterMicrosoftCSharpTargets = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftCommonProps = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftCommonTargets = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftCSharpTargets = true
+                   IncludeBuildOutput = true
+                   IncludeContentInPack = true
+                   IncludeFileVersionsInDependencyFile = true
+                   IncludeMainProjectInDepsFile = true
+                   IncludeSourceRevisionInInformationalVersion = true
+                   IncludeSymbolsInSingleFile = false
+                   InnerBuildProperty = TargetFramework
+                   InnerBuildPropertyValues = TargetFrameworks
+                   IntermediateOutputPath = obj\Debug\netcoreapp2.0\
+                   IsPackable = false
+                   IsPublishable = true
+                   IsRestoreTargetsFileLoaded = true
+                   IsTestProject = true
+                   Language = C#
+                   LanguageTargets = C:\Program Files\dotnet\sdk\3.1.401\Microsoft.CSharp.targets
+                   LangVersion = 7.3
+                   LOCALAPPDATA = C:\Users\felixignaciorodrigue\AppData\Local
+                   LOGONSERVER = \\FELIXIGNACIFD46
+                   MarkPackageReferencesAsExternallyResolved = true
+                   MaxTargetPath = 100
+                   MicrosoftCommonPropsHasBeenImported = true
+                   MicrosoftNETBuildExtensionsTargets = C:\Program Files\dotnet\sdk\3.1.401\\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets
+                   MicrosoftNETBuildExtensionsTasksAssembly = C:\Program Files\dotnet\sdk\3.1.401\Microsoft\Microsoft.NET.Build.Extensions\\tools\netcoreapp2.1\Microsoft.NET.Build.Extensions.Tasks.dll
+                   MicrosoftNETBuildTasksAssembly = C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\..\tools\netcoreapp2.1/Microsoft.NET.Build.Tasks.dll
+                   MicrosoftNETBuildTasksDirectory = C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\..\tools\netcoreapp2.1/
+                   MicrosoftNETBuildTasksDirectoryRoot = C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\..\tools\
+                   MicrosoftNETBuildTasksTFM = netcoreapp2.1
+                   MsAppxPackageTargets = C:\Program Files\dotnet\sdk\3.1.401\Microsoft\VisualStudio\v16.0\AppxPackage\Microsoft.AppXPackage.Targets
+                   MSBuildAllProjects = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.props;;C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.props;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.props;C:\Program Files\dotnet\sdk\3.1.401\NuGet.targets;C:\Program Files\dotnet\sdk\3.1.401\Current\Microsoft.Common.targets\ImportAfter\Microsoft.TestPlatform.ImportAfter.targets;C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Lil.Customers.Tests.csproj.nuget.g.targets;C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.targets;C:\Program Files\dotnet\sdk\3.1.401\Sdks\NuGet.Build.Tasks.Pack\build\NuGet.Build.Tasks.Pack.targets
+                   MSBuildAssemblyVersion = 16.0
+                   MSBuildBinPath = C:\Program Files\dotnet\sdk\3.1.401
+                   MSBUILDENSURESTDOUTFORTASKPROCESSES = 1
+                   MSBuildExtensionsPath = C:\Program Files\dotnet\sdk\3.1.401\
+                   MSBuildExtensionsPath32 = C:\Program Files\dotnet\sdk\3.1.401
+                   MSBuildExtensionsPath64 = C:\Program Files\dotnet\sdk\3.1.401
+                   MSBuildLoadMicrosoftTargetsReadOnly = true
+                   MSBuildNodeCount = 4
+                   MSBuildProgramFiles32 = C:\Program Files (x86)
+                   MSBuildProjectDefaultTargets = Build
+                   MSBuildProjectDirectory = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests
+                   MSBuildProjectDirectoryNoRoot = GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests
+                   MSBuildProjectExtension = .csproj
+                   MSBuildProjectExtensionsPath = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\
+                   MSBuildProjectFile = Lil.Customers.Tests.csproj
+                   MSBuildProjectFullPath = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\Lil.Customers.Tests.csproj
+                   MSBuildProjectName = Lil.Customers.Tests
+                   MSBuildRuntimeType = Core
+                   MSBuildSDKsPath = C:\Program Files\dotnet\sdk\3.1.401\Sdks
+                   MSBuildStartupDirectory = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests
+                   MSBuildToolsPath = C:\Program Files\dotnet\sdk\3.1.401
+                   MSBuildToolsVersion = Current
+                   MSBuildUserExtensionsPath = C:\Users\felixignaciorodrigue\AppData\Local\Microsoft\MSBuild
+                   MSBuildUseVisualStudioDirectoryLayout = False
+                   MSBuildVersion = 16.7.0
+                   MsTestToolsTargets = C:\Program Files\dotnet\sdk\3.1.401\Microsoft\VisualStudio\v16.0\TeamTest\Microsoft.TeamTest.targets
+                   NETCoreAppMaximumVersion = 3.1
+                   NetCoreRoot = C:\Program Files\dotnet\
+                   NETCoreSdkBundledCliToolsProps = C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\..\..\..\Microsoft.NETCoreSdk.BundledCliTools.props
+                   NETCoreSdkBundledVersionsProps = C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\..\..\..\Microsoft.NETCoreSdk.BundledVersions.props
+                   NETCoreSdkRuntimeIdentifier = win-x64
+                   NETCoreSdkVersion = 3.1.401
+                   NetCoreTargetingPackRoot = C:\Program Files\dotnet\packs
+                   NETStandardLibraryPackageVersion = 2.0.3
+                   NoCompilerStandardLib = true
+                   NoStdLib = true
+                   NoWarn = 1701;1702
+                   NuGetBuildTasksPackTargets = C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\Sdk\..\..\NuGet.Build.Tasks.Pack\build\NuGet.Build.Tasks.Pack.targets
+                   NuGetInteractive = 
+                   NuGetPackageFolders = C:\Users\felixignaciorodrigue\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder
+                   NuGetPackageRoot = C:\Users\felixignaciorodrigue\.nuget\packages\
+                   NuGetPackTaskAssemblyFile = ..\CoreCLR\NuGet.Build.Tasks.Pack.dll
+                   NuGetProjectStyle = PackageReference
+                   NuGetPropsFile = C:\Program Files\dotnet\sdk\3.1.401\NuGet.props
+                   NuGetRestoreTargets = C:\Program Files\dotnet\sdk\3.1.401\NuGet.targets
+                   NuGetTargetMoniker = .NETCoreApp,Version=v2.0
+                   NuGetToolVersion = 5.6.0
+                   NUMBER_OF_PROCESSORS = 4
+                   NuspecOutputPath = obj\Debug\
+                   Optimize = false
+                   OS = Windows_NT
+                   OutDir = bin\Debug\netcoreapp2.0\
+                   OutputPath = bin\Debug\netcoreapp2.0\
+                   OutputType = Exe
+                   OverwriteReadOnlyFiles = false
+                   PackageConflictPreferredPackages = Microsoft.NETCore.App;runtime.linux-x64.Microsoft.NETCore.App;runtime.linux-x64.Microsoft.NETCore.App;runtime.linux-musl-x64.Microsoft.NETCore.App;runtime.linux-musl-x64.Microsoft.NETCore.App;runtime.rhel.6-x64.Microsoft.NETCore.App;runtime.rhel.6-x64.Microsoft.NETCore.App;runtime.osx-x64.Microsoft.NETCore.App;runtime.osx-x64.Microsoft.NETCore.App;runtime.win-x86.Microsoft.NETCore.App;runtime.win-x86.Microsoft.NETCore.App;runtime.win-arm.Microsoft.NETCore.App;runtime.win-arm.Microsoft.NETCore.App;runtime.win-arm64.Microsoft.NETCore.App;runtime.win-arm64.Microsoft.NETCore.App;runtime.linux-arm.Microsoft.NETCore.App;runtime.linux-arm.Microsoft.NETCore.App;runtime.linux-arm64.Microsoft.NETCore.App;runtime.linux-arm64.Microsoft.NETCore.App;runtime.tizen.4.0.0-armel.Microsoft.NETCore.App;runtime.tizen.4.0.0-armel.Microsoft.NETCore.App;runtime.tizen.5.0.0-armel.Microsoft.NETCore.App;runtime.tizen.5.0.0-armel.Microsoft.NETCore.App;runtime.win-x64.Microsoft.NETCore.App;runtime.win-x64.Microsoft.NETCore.App
+                   PackageDescription = Package Description
+                   PackageDownloadSupported = true
+                   PackagedShimOutputRootDirectory = bin\Debug\netcoreapp2.0\
+                   PackageId = Lil.Customers.Tests
+                   PackageOutputPath = bin\Debug\
+                   PackageRequireLicenseAcceptance = false
+                   PackageVersion = 1.0.0
+                   PackDependsOn = ; _IntermediatePack; GenerateNuspec; 
+                   Path = C:\Program Files (x86)\Parallels\Parallels Tools\Applications;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\felixignaciorodrigue\AppData\Local\Microsoft\WindowsApps;C:\Users\felixignaciorodrigue\.dotnet\tools;C:\Users\felixignaciorodrigue\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\felixignaciorodrigue\AppData\Local\GitHubDesktop\bin;C:\Users\felixignaciorodrigue\AppData\Roaming\npm
+                   PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+                   PkgNewtonsoft_Json = C:\Users\felixignaciorodrigue\.nuget\packages\newtonsoft.json\9.0.1
+                   Platform = AnyCPU
+                   PlatformName = AnyCPU
+                   Platforms = AnyCPU
+                   PostBuildEventDependsOn = 
+                   PreBuildEventDependsOn = 
+                   Prefer32Bit = false
+                   PrepareForBuildDependsOn = ;GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata
+                   PrepareForRunDependsOn = 
+                         CopyFilesToOutputDirectory
+                       
+                   PrepareProjectReferencesDependsOn = 
+                         AssignProjectConfiguration;
+                         _SplitProjectReferencesByFileExistence;
+                         _GetProjectReferenceTargetFrameworkProperties
+                       
+                   PrepareResourceNamesDependsOn = 
+                         AssignTargetPaths;
+                         SplitResourcesByCulture;
+                         CreateManifestResourceNames;
+                         CreateCustomManifestResourceNames
+                       
+                   PrepareResourcesDependsOn = 
+                         ResolvePackageDependenciesForBuild;
+                         _HandlePackageFileConflicts;
+                         
+                         ;
+                         PrepareResourceNames;
+                         ResGen;
+                         CompileLicxFiles
+                       
+                       
+                   PreserveCompilationReferences = 
+                   PROCESSOR_ARCHITECTURE = AMD64
+                   PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+                   PROCESSOR_LEVEL = 6
+                   PROCESSOR_REVISION = 8e0a
+                   ProcessorArchitecture = msil
+                   ProcessorArchitectureAsPlatform = AnyCPU
+                   ProduceReferenceAssembly = false
+                   Product = Lil.Customers.Tests
+                   ProgramData = C:\ProgramData
+                   ProgramFiles = C:\Program Files
+                   ProgramW6432 = C:\Program Files
+                   ProjectAssetsCacheFile = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.0\Lil.Customers.Tests.assets.cache
+                   ProjectAssetsFile = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\project.assets.json
+                   ProjectDepsFileName = Lil.Customers.Tests.deps.json
+                   ProjectDepsFilePath = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.0\Lil.Customers.Tests.deps.json
+                   ProjectDesignTimeAssemblyResolutionSearchPaths = 
+                         {CandidateAssemblyFiles};
+                         ;
+                         {HintPathFromItem};
+                         {TargetFrameworkDirectory};
+                         {Registry:Software\Microsoft\.NETCoreApp,v2.0,AssemblyFoldersEx};
+                         {RawFileName};
+                         C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.0\
+                       
+                   ProjectDir = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\
+                   ProjectExt = .csproj
+                   ProjectFileName = Lil.Customers.Tests.csproj
+                   ProjectFlavor = Client
+                   ProjectName = Lil.Customers.Tests
+                   ProjectPath = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\Lil.Customers.Tests.csproj
+                   ProjectRuntimeConfigDevFilePath = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.0\Lil.Customers.Tests.runtimeconfig.dev.json
+                   ProjectRuntimeConfigFileName = Lil.Customers.Tests.runtimeconfig.json
+                   ProjectRuntimeConfigFilePath = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.0\Lil.Customers.Tests.runtimeconfig.json
+                   PSModulePath = \\Mac\Home\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+                   PUBLIC = C:\Users\Public
+                   PublishableProject = 
+                   PublishBuildDependsOn = 
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         ResolveReferences;
+                         PrepareResources;
+                         ResolveKeySource;
+                         GenerateSerializationAssemblies;
+                         CreateSatelliteAssemblies;
+                       
+                   PublishDependsOn = 
+                         _DeploymentUnpublishable
+                       
+                   PublishDir = bin\Debug\netcoreapp2.0\publish\
+                   PublishDirName = publish
+                   PublishDocumentationFile = true
+                   PublishDocumentationFiles = true
+                   PublishItemsOutputGroupDependsOn = 
+                         ;
+                         ResolveReferences;
+                         ComputeFilesToPublish;
+                         ComputeFilesCopiedToPublishDir;
+                       
+                   PublishOnlyDependsOn = 
+                         SetGenerateManifests;
+                         PublishBuild;
+                         BeforePublish;
+                         GenerateManifests;
+                         CopyFilesToOutputDirectory;
+                         _CopyFilesToPublishFolder;
+                         _DeploymentGenerateBootstrapper;
+                         ResolveKeySource;
+                         _DeploymentSignClickOnceDeployment;
+                         AfterPublish
+                       
+                   PublishProfileImported = false
+                   PublishReferencesDocumentationFiles = true
+                   RebuildDependsOn = 
+                         _SdkBeforeRebuild;
+                         
+                         BeforeRebuild;
+                         Clean;
+                         Build;
+                         AfterRebuild;
+                       
+                       
+                   RefAssembliesFolderName = refs
+                   ReferenceCopyLocalPathsOutputGroupDependsOn = 
+                         ;
+                         
+                         ;
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         AssignTargetPaths;
+                         ResolveReferences
+                       
+                       
+                   ReportingServicesTargets = C:\Program Files\dotnet\sdk\3.1.401\\Microsoft\VisualStudio\v16.0\ReportingServices\Microsoft.ReportingServices.targets
+                   ResGenDependsOn = ResolveAssemblyReferences;SplitResourcesByCulture;BeforeResGen;CoreResGen;AfterResGen
+                   ResGenExecuteAsTool = false
+                   ResolveAssemblyReferencesDependsOn = 
+                         
+                         
+                         ResolveProjectReferences;
+                         FindInvalidProjectReferences;
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         PrepareForBuild;
+                         ResolveSDKReferences;
+                         ExpandSDKReferences;
+                       ;
+                         ResolvePackageDependenciesForBuild;
+                         _HandlePackageFileConflicts;
+                       ;
+                         ResolveTargetingPackAssets;
+                       
+                   ResolveNuGetPackages = false
+                   ResolvePackageDependenciesForBuildDependsOn = 
+                         ResolveLockFileReferences;
+                         ResolveLockFileAnalyzers;
+                         ResolveLockFileCopyLocalFiles;
+                         ResolveRuntimePackAssets;
+                         RunProduceContentAssets;
+                         IncludeTransitiveProjectReferences
+                       
+                   ResolveReferencesDependsOn = 
+                         BeforeResolveReferences;
+                         AssignProjectConfiguration;
+                         ResolveProjectReferences;
+                         FindInvalidProjectReferences;
+                         ResolveNativeReferences;
+                         ResolveAssemblyReferences;
+                         GenerateBindingRedirects;
+                         ResolveComReferences;
+                         AfterResolveReferences
+                       
+                   ResolveSDKReferencesDependsOn = 
+                         GetInstalledSDKLocations
+                       
+                   RestoreAdditionalProjectFallbackFolders = ;C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\..\..\..\..\NuGetFallbackFolder
+                   RestoreBuildInParallel = true
+                   RestoreContinueOnError = WarnAndContinue
+                   RestoreProjectStyle = PackageReference
+                   RestoreRecursive = true
+                   RestoreSuccess = True
+                   RestoreTaskAssemblyFile = NuGet.Build.Tasks.dll
+                   RestoreTool = NuGet
+                   RestoreUseSkipNonexistentTargets = true
+                   RootNamespace = Lil.Customers.Tests
+                   RoslynTargetsPath = C:\Program Files\dotnet\sdk\3.1.401\Roslyn
+                   RunArguments = exec "C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.0\Lil.Customers.Tests.dll"
+                   RunCommand = dotnet
+                   RunDependsOn = 
+                   RuntimeIdentifierGraphPath = C:\Program Files\dotnet\sdk\3.1.401\RuntimeIdentifierGraph.json
+                   RunWorkingDirectory = 
+                   SatelliteDllsProjectOutputGroupDependenciesDependsOn = 
+                         ;
+                         
+                         ;
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         AssignTargetPaths;
+                         ResolveReferences
+                       
+                       
+                   SatelliteDllsProjectOutputGroupDependsOn = PrepareForBuild;PrepareResourceNames
+                   SDKRedistOutputGroupDependsOn = ResolveSDKReferences;ExpandSDKReferences
+                   SDKReferenceDirectoryRoot = C:\Users\felixignaciorodrigue\AppData\Local\Microsoft SDKs;C:\Program Files (x86)\Microsoft SDKs
+                   SDKReferenceRegistryRoot = Software\Microsoft\Microsoft SDKs
+                   SESSIONNAME = Console
+                   SGenFilesOutputGroupDependenciesDependsOn = 
+                         ;
+                         
+                         ;
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         AssignTargetPaths;
+                         ResolveReferences
+                       
+                       
+                   SGenFilesOutputGroupDependsOn = 
+                   SGenShouldGenerateSerializer = true
+                   SGenUseKeep = false
+                   SGenUseProxyTypes = true
+                   ShouldMarkCertainSDKReferencesAsRuntimeOnly = true
+                   SignAssembly = false
+                   SkipCopyUnchangedFiles = true
+                   SkipImportNuGetBuildTargets = true
+                   SkipImportNuGetProps = true
+                   SolutionDir = *Undefined*
+                   SolutionExt = *Undefined*
+                   SolutionFileName = *Undefined*
+                   SolutionName = *Undefined*
+                   SolutionPath = *Undefined*
+                   SourceControlInformationFeatureSupported = true
+                   SourceFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+                   SourceRootMappedPathsFeatureSupported = true
+                   SuppressDependenciesWhenPacking = false
+                   SymbolPackageFormat = symbols.nupkg
+                   SystemDrive = C:
+                   SystemRoot = C:\Windows
+                   TargetCulture = *
+                   TargetDeployManifestFileName = Lil.Customers.Tests.application
+                   TargetDir = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.0\
+                   TargetedFrameworkDir = @(_TargetedFrameworkDirectoryItem)
+                   TargetedSDKArchitecture = msil
+                   TargetedSDKConfiguration = Debug
+                   TargetExt = .dll
+                   TargetFileName = Lil.Customers.Tests.dll
+                   TargetFramework = netcoreapp2.0
+                   TargetFrameworkDirectory = 
+                   TargetFrameworkIdentifier = .NETCoreApp
+                   TargetFrameworkMoniker = .NETCoreApp,Version=v2.0
+                   TargetFrameworkMonikerAssemblyAttributesPath = obj\Debug\netcoreapp2.0\.NETCoreApp,Version=v2.0.AssemblyAttributes.cs
+                   TargetFrameworkSDKToolsDirectory = 
+                   TargetFrameworkVersion = v2.0
+                   TargetLatestRuntimePatch = false
+                   TargetName = Lil.Customers.Tests
+                   TargetPath = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.0\Lil.Customers.Tests.dll
+                   TargetPlatformDisplayName = Windows 7.0
+                   TargetPlatformIdentifier = Windows
+                   TargetPlatformMoniker = Windows,Version=7.0
+                   TargetPlatformRegistryBase = Software\Microsoft\Microsoft SDKs\Windows
+                   TargetPlatformSdkPath = 
+                   TargetPlatformVersion = 7.0
+                   TargetRuntime = Managed
+                   TargetsForTfmSpecificContentInPackage = ;PackTool;_PackProjectToolValidation
+                   TEMP = C:\Users\FELIXI~1\AppData\Local\Temp
+                   TMP = C:\Users\FELIXI~1\AppData\Local\Temp
+                   ToolCommandName = Lil.Customers.Tests
+                   ToolDepsJsonGeneratorProject = C:\Program Files\dotnet\sdk\3.1.401\Sdks\Microsoft.NET.Sdk\targets\GenerateDeps\GenerateDeps.proj
+                   ToolEntryPoint = Lil.Customers.Tests.dll
+                   TraceDataCollectorDirectoryPath = C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.codecoverage\16.0.1\build\netstandard1.0\
+                   TreatWarningsAsErrors = false
+                   UnmanagedRegistrationDependsOn = 
+                   UnmanagedUnregistrationDependsOn = 
+                   UseBundledNETCoreAppPackageVersionAsDefaultNetCorePatchVersion = false
+                   UseCommonOutputDirectory = false
+                   UseHostCompilerIfAvailable = true
+                   USERDOMAIN = FELIXIGNACIFD46
+                   USERDOMAIN_ROAMINGPROFILE = FELIXIGNACIFD46
+                   USERNAME = felixignaciorodrigue
+                   USERPROFILE = C:\Users\felixignaciorodrigue
+                   UserProfileRuntimeStorePath = C:\Users\felixignaciorodrigue\.dotnet\store
+                   UserRuntimeConfig = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests/runtimeconfig.template.json
+                   UseSourcePath = true
+                   UsingMicrosoftNETSdk = true
+                   UsingNETSdkDefaults = true
+                   Utf8Output = true
+                   ValidateRuntimeIdentifierCompatibility = false
+                   VerifyMatchingImplicitPackageVersion = true
+                   Version = 1.0.0
+                   VersionlessImplicitFrameworkDefine = NETCOREAPP
+                   VersionPrefix = 1.0.0
+                   VisualStudioVersion = 16.0
+                   VSTestConsolePath = C:\Program Files\dotnet\sdk\3.1.401\vstest.console.dll
+                   VSTestNoBuild = true
+                   VSTestTargets = C:\Program Files\dotnet\sdk\3.1.401\\Microsoft.TestPlatform.targets
+                   VSTestTaskAssemblyFile = Microsoft.TestPlatform.Build.dll
+                   WarningLevel = 4
+                   WarningsAsErrors = NU1605
+                   WarnOnPackingNonPackableProject = false
+                   WebReference_EnableLegacyEventingModel = false
+                   WebReference_EnableProperties = true
+                   WebReference_EnableSQLTypes = true
+                   windir = C:\Windows
+                   WMSJSProject = WJProject
+                   WMSJSProjectDirectory = JavaScript
+                   YieldDuringToolExecution = true
+
+10:20:43.922     1>Elementos iniciales:
+                   _AllDirectoriesAbove
+                       C:\
+                       C:\GitHub
+                       C:\GitHub\Microservicio
+                       C:\GitHub\Microservicio\Microservicios
+                       C:\GitHub\Microservicio\Microservicios\Microservices
+                       C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests
+                   _ApplicationManifestFinal
+                       bin\Debug\netcoreapp2.0\Native.Lil.Customers.Tests.manifest
+                           TargetPath = Native.Lil.Customers.Tests.manifest
+                   _DebugSymbolsIntermediatePath
+                       obj\Debug\netcoreapp2.0\Lil.Customers.Tests.pdb
+                   _DebugSymbolsOutputPath
+                       bin\Debug\netcoreapp2.0\Lil.Customers.Tests.pdb
+                   _DeploymentManifestEntryPoint
+                       obj\Debug\netcoreapp2.0\Lil.Customers.Tests.dll
+                           TargetPath = Lil.Customers.Tests.dll
+                   _OutputPathItem
+                       bin\Debug\netcoreapp2.0\
+                   _ResolveComReferenceCache
+                       obj\Debug\netcoreapp2.0\Lil.Customers.Tests.csproj.ResolveComReference.cache
+                   _UnmanagedRegistrationCache
+                       obj\Lil.Customers.Tests.csproj.UnmanagedRegistration.cache
+                   AdditionalProbingPath
+                       C:\Users\felixignaciorodrigue\.dotnet\store\|arch|\|tfm|
+                   AppConfigFileDestination
+                       bin\Debug\netcoreapp2.0\Lil.Customers.Tests.dll.config
+                   ApplicationManifest
+                       obj\Debug\netcoreapp2.0\Native.Lil.Customers.Tests.manifest
+                           TargetPath = Native.Lil.Customers.Tests.manifest
+                   BuiltProjectOutputGroupKeyOutput
+                       C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.0\Lil.Customers.Tests.dll
+                           IsKeyOutput = true
+                           FinalOutputPath = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.0\Lil.Customers.Tests.dll
+                           TargetPath = Lil.Customers.Tests.dll
+                   ClsidMap
+                       obj\Debug\netcoreapp2.0\Lil.Customers.Tests.clsidmap
+                   Compile
+                       C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.Program.cs
+                       CustomersTest.cs
+                   Content
+                       C:\Users\felixignaciorodrigue\.nuget\packages\mstest.testadapter\1.4.0\build\netcoreapp1.0\..\_common\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+                           Link = Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+                           CopyToOutputDirectory = PreserveNewest
+                           Visible = False
+                       C:\Users\felixignaciorodrigue\.nuget\packages\mstest.testadapter\1.4.0\build\netcoreapp1.0\..\_common\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+                           Link = Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+                           CopyToOutputDirectory = PreserveNewest
+                           Visible = False
+                       C:\Users\felixignaciorodrigue\.nuget\packages\mstest.testadapter\1.4.0\build\netcoreapp1.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+                           Link = Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+                           CopyToOutputDirectory = PreserveNewest
+                           Visible = False
+                   CopyUpToDateMarker
+                       C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.0\Lil.Customers.Tests.csproj.CopyComplete
+                   DebugSymbolsProjectOutputGroupOutput
+                       C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.0\Lil.Customers.Tests.pdb
+                           FinalOutputPath = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.0\Lil.Customers.Tests.pdb
+                           TargetPath = Lil.Customers.Tests.pdb
+                   DeployManifest
+                       obj\Debug\netcoreapp2.0\Lil.Customers.Tests.application
+                           TargetPath = Lil.Customers.Tests.application
+                   GenerateRuntimeConfigurationFilesInputs
+                       C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\Debug\netcoreapp2.0\Lil.Customers.Tests.assets.cache
+                       C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\obj\project.assets.json
+                   ImplicitPackageReferenceVersion
+                       Microsoft.AspNetCore.All
+                           TargetFrameworkVersion = 2.1
+                           DefaultVersion = 2.1.1
+                           LatestVersion = 2.1.21
+                       Microsoft.AspNetCore.All
+                           TargetFrameworkVersion = 2.2
+                           DefaultVersion = 2.2.0
+                           LatestVersion = 2.2.8
+                       Microsoft.AspNetCore.App
+                           TargetFrameworkVersion = 2.1
+                           DefaultVersion = 2.1.1
+                           LatestVersion = 2.1.21
+                       Microsoft.AspNetCore.App
+                           TargetFrameworkVersion = 2.2
+                           DefaultVersion = 2.2.0
+                           LatestVersion = 2.2.8
+                       Microsoft.NETCore.App
+                           TargetFrameworkVersion = 1.0
+                           DefaultVersion = 1.0.5
+                           LatestVersion = 1.0.16
+                       Microsoft.NETCore.App
+                           TargetFrameworkVersion = 1.1
+                           DefaultVersion = 1.1.2
+                           LatestVersion = 1.1.13
+                       Microsoft.NETCore.App
+                           TargetFrameworkVersion = 2.0
+                           DefaultVersion = 2.0.0
+                           LatestVersion = 2.0.9
+                       Microsoft.NETCore.App
+                           TargetFrameworkVersion = 2.1
+                           DefaultVersion = 2.1.0
+                           LatestVersion = 2.1.21
+                       Microsoft.NETCore.App
+                           TargetFrameworkVersion = 2.2
+                           DefaultVersion = 2.2.0
+                           LatestVersion = 2.2.8
+                   IntermediateAssembly
+                       obj\Debug\netcoreapp2.0\Lil.Customers.Tests.dll
+                   KnownAppHostPack
+                       Microsoft.NETCore.App
+                           TargetFramework = netcoreapp3.1
+                           AppHostPackNamePattern = Microsoft.NETCore.App.Host.**RID**
+                           AppHostPackVersion = 3.1.7
+                           AppHostRuntimeIdentifiers = linux-arm;linux-arm64;linux-musl-arm64;linux-musl-x64;linux-x64;osx-x64;rhel.6-x64;tizen.4.0.0-armel;tizen.5.0.0-armel;win-arm;win-arm64;win-x64;win-x86
+                       Microsoft.NETCore.App
+                           TargetFramework = netcoreapp3.0
+                           AppHostPackNamePattern = Microsoft.NETCore.App.Host.**RID**
+                           AppHostPackVersion = 3.0.3
+                           AppHostRuntimeIdentifiers = linux-arm;linux-arm64;linux-musl-arm64;linux-musl-x64;linux-x64;osx-x64;rhel.6-x64;tizen.4.0.0-armel;tizen.5.0.0-armel;win-arm;win-arm64;win-x64;win-x86
+                   KnownFrameworkReference
+                       Microsoft.AspNetCore.App
+                           TargetFramework = netcoreapp3.1
+                           RuntimeFrameworkName = Microsoft.AspNetCore.App
+                           DefaultRuntimeFrameworkVersion = 3.1.0
+                           LatestRuntimeFrameworkVersion = 3.1.7
+                           TargetingPackName = Microsoft.AspNetCore.App.Ref
+                           TargetingPackVersion = 3.1.3
+                           RuntimePackNamePatterns = Microsoft.AspNetCore.App.Runtime.**RID**
+                           RuntimePackRuntimeIdentifiers = win-x64;win-x86;win-arm;osx-x64;linux-musl-x64;linux-musl-arm64;linux-x64;linux-arm;linux-arm64
+                       Microsoft.AspNetCore.App
+                           TargetFramework = netcoreapp3.0
+                           RuntimeFrameworkName = Microsoft.AspNetCore.App
+                           DefaultRuntimeFrameworkVersion = 3.0.0
+                           LatestRuntimeFrameworkVersion = 3.0.3
+                           TargetingPackName = Microsoft.AspNetCore.App.Ref
+                           TargetingPackVersion = 3.0.1
+                           RuntimePackNamePatterns = Microsoft.AspNetCore.App.Runtime.**RID**
+                           RuntimePackRuntimeIdentifiers = win-x64;win-x86;win-arm;osx-x64;linux-musl-x64;linux-musl-arm64;linux-x64;linux-arm;linux-arm64
+                       Microsoft.NETCore.App
+                           TargetFramework = netcoreapp3.1
+                           RuntimeFrameworkName = Microsoft.NETCore.App
+                           DefaultRuntimeFrameworkVersion = 3.1.0
+                           LatestRuntimeFrameworkVersion = 3.1.7
+                           TargetingPackName = Microsoft.NETCore.App.Ref
+                           TargetingPackVersion = 3.1.0
+                           RuntimePackNamePatterns = Microsoft.NETCore.App.Runtime.**RID**
+                           RuntimePackRuntimeIdentifiers = linux-arm;linux-arm64;linux-musl-arm64;linux-musl-x64;linux-x64;osx-x64;rhel.6-x64;tizen.4.0.0-armel;tizen.5.0.0-armel;win-arm;win-arm64;win-x64;win-x86
+                           IsTrimmable = true
+                       Microsoft.NETCore.App
+                           TargetFramework = netcoreapp3.0
+                           RuntimeFrameworkName = Microsoft.NETCore.App
+                           DefaultRuntimeFrameworkVersion = 3.0.0
+                           LatestRuntimeFrameworkVersion = 3.0.3
+                           TargetingPackName = Microsoft.NETCore.App.Ref
+                           TargetingPackVersion = 3.0.0
+                           RuntimePackNamePatterns = Microsoft.NETCore.App.Runtime.**RID**
+                           RuntimePackRuntimeIdentifiers = linux-arm;linux-arm64;linux-musl-arm64;linux-musl-x64;linux-x64;osx-x64;rhel.6-x64;tizen.4.0.0-armel;tizen.5.0.0-armel;win-arm;win-arm64;win-x64;win-x86
+                           IsTrimmable = true
+                       Microsoft.WindowsDesktop.App
+                           TargetFramework = netcoreapp3.1
+                           RuntimeFrameworkName = Microsoft.WindowsDesktop.App
+                           DefaultRuntimeFrameworkVersion = 3.1.0
+                           LatestRuntimeFrameworkVersion = 3.1.7
+                           TargetingPackName = Microsoft.WindowsDesktop.App.Ref
+                           TargetingPackVersion = 3.1.0
+                           RuntimePackNamePatterns = Microsoft.WindowsDesktop.App.Runtime.**RID**
+                           RuntimePackRuntimeIdentifiers = win-x64;win-x86
+                           IsWindowsOnly = true
+                       Microsoft.WindowsDesktop.App
+                           TargetFramework = netcoreapp3.0
+                           RuntimeFrameworkName = Microsoft.WindowsDesktop.App
+                           DefaultRuntimeFrameworkVersion = 3.0.0
+                           LatestRuntimeFrameworkVersion = 3.0.3
+                           TargetingPackName = Microsoft.WindowsDesktop.App.Ref
+                           TargetingPackVersion = 3.0.0
+                           RuntimePackNamePatterns = Microsoft.WindowsDesktop.App.Runtime.**RID**
+                           RuntimePackRuntimeIdentifiers = win-x64;win-x86
+                           IsWindowsOnly = true
+                       Microsoft.WindowsDesktop.App.WindowsForms
+                           TargetFramework = netcoreapp3.1
+                           RuntimeFrameworkName = Microsoft.WindowsDesktop.App
+                           DefaultRuntimeFrameworkVersion = 3.1.0
+                           LatestRuntimeFrameworkVersion = 3.1.7
+                           TargetingPackName = Microsoft.WindowsDesktop.App.Ref
+                           TargetingPackVersion = 3.1.0
+                           RuntimePackNamePatterns = Microsoft.WindowsDesktop.App.Runtime.**RID**
+                           RuntimePackRuntimeIdentifiers = win-x64;win-x86
+                           IsWindowsOnly = true
+                           Profile = WindowsForms
+                       Microsoft.WindowsDesktop.App.WindowsForms
+                           TargetFramework = netcoreapp3.0
+                           RuntimeFrameworkName = Microsoft.WindowsDesktop.App
+                           DefaultRuntimeFrameworkVersion = 3.0.0
+                           LatestRuntimeFrameworkVersion = 3.0.3
+                           TargetingPackName = Microsoft.WindowsDesktop.App.Ref
+                           TargetingPackVersion = 3.0.0
+                           RuntimePackNamePatterns = Microsoft.WindowsDesktop.App.Runtime.**RID**
+                           RuntimePackRuntimeIdentifiers = win-x64;win-x86
+                           IsWindowsOnly = true
+                           Profile = WindowsForms
+                       Microsoft.WindowsDesktop.App.WPF
+                           TargetFramework = netcoreapp3.1
+                           RuntimeFrameworkName = Microsoft.WindowsDesktop.App
+                           DefaultRuntimeFrameworkVersion = 3.1.0
+                           LatestRuntimeFrameworkVersion = 3.1.7
+                           TargetingPackName = Microsoft.WindowsDesktop.App.Ref
+                           TargetingPackVersion = 3.1.0
+                           RuntimePackNamePatterns = Microsoft.WindowsDesktop.App.Runtime.**RID**
+                           RuntimePackRuntimeIdentifiers = win-x64;win-x86
+                           IsWindowsOnly = true
+                           Profile = WPF
+                       Microsoft.WindowsDesktop.App.WPF
+                           TargetFramework = netcoreapp3.0
+                           RuntimeFrameworkName = Microsoft.WindowsDesktop.App
+                           DefaultRuntimeFrameworkVersion = 3.0.0
+                           LatestRuntimeFrameworkVersion = 3.0.3
+                           TargetingPackName = Microsoft.WindowsDesktop.App.Ref
+                           TargetingPackVersion = 3.0.0
+                           RuntimePackNamePatterns = Microsoft.WindowsDesktop.App.Runtime.**RID**
+                           RuntimePackRuntimeIdentifiers = win-x64;win-x86
+                           IsWindowsOnly = true
+                           Profile = WPF
+                       NETStandard.Library
+                           TargetFramework = netstandard2.1
+                           TargetingPackName = NETStandard.Library.Ref
+                           TargetingPackVersion = 2.1.0
+                   None
+                       msbuild.log
+                   PackageConflictOverrides
+                       Microsoft.NETCore.App
+                           OverriddenPackages = 
+                           Microsoft.CSharp|4.4.0;
+                           Microsoft.Win32.Primitives|4.3.0;
+                           Microsoft.Win32.Registry|4.4.0;
+                           runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+                           runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+                           runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+                           runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+                           runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+                           runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple|4.3.0;
+                           runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+                           runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+                           runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+                           runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+                           runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+                           System.AppContext|4.3.0;
+                           System.Buffers|4.4.0;
+                           System.Collections|4.3.0;
+                           System.Collections.Concurrent|4.3.0;
+                           System.Collections.Immutable|1.4.0;
+                           System.Collections.NonGeneric|4.3.0;
+                           System.Collections.Specialized|4.3.0;
+                           System.ComponentModel|4.3.0;
+                           System.ComponentModel.EventBasedAsync|4.3.0;
+                           System.ComponentModel.Primitives|4.3.0;
+                           System.ComponentModel.TypeConverter|4.3.0;
+                           System.Console|4.3.0;
+                           System.Data.Common|4.3.0;
+                           System.Diagnostics.Contracts|4.3.0;
+                           System.Diagnostics.Debug|4.3.0;
+                           System.Diagnostics.DiagnosticSource|4.4.0;
+                           System.Diagnostics.FileVersionInfo|4.3.0;
+                           System.Diagnostics.Process|4.3.0;
+                           System.Diagnostics.StackTrace|4.3.0;
+                           System.Diagnostics.TextWriterTraceListener|4.3.0;
+                           System.Diagnostics.Tools|4.3.0;
+                           System.Diagnostics.TraceSource|4.3.0;
+                           System.Diagnostics.Tracing|4.3.0;
+                           System.Dynamic.Runtime|4.3.0;
+                           System.Globalization|4.3.0;
+                           System.Globalization.Calendars|4.3.0;
+                           System.Globalization.Extensions|4.3.0;
+                           System.IO|4.3.0;
+                           System.IO.Compression|4.3.0;
+                           System.IO.Compression.ZipFile|4.3.0;
+                           System.IO.FileSystem|4.3.0;
+                           System.IO.FileSystem.AccessControl|4.4.0;
+                           System.IO.FileSystem.DriveInfo|4.3.0;
+                           System.IO.FileSystem.Primitives|4.3.0;
+                           System.IO.FileSystem.Watcher|4.3.0;
+                           System.IO.IsolatedStorage|4.3.0;
+                           System.IO.MemoryMappedFiles|4.3.0;
+                           System.IO.Pipes|4.3.0;
+                           System.IO.UnmanagedMemoryStream|4.3.0;
+                           System.Linq|4.3.0;
+                           System.Linq.Expressions|4.3.0;
+                           System.Linq.Queryable|4.3.0;
+                           System.Net.Http|4.3.0;
+                           System.Net.NameResolution|4.3.0;
+                           System.Net.Primitives|4.3.0;
+                           System.Net.Requests|4.3.0;
+                           System.Net.Security|4.3.0;
+                           System.Net.Sockets|4.3.0;
+                           System.Net.WebHeaderCollection|4.3.0;
+                           System.ObjectModel|4.3.0;
+                           System.Private.DataContractSerialization|4.3.0;
+                           System.Reflection|4.3.0;
+                           System.Reflection.Emit|4.3.0;
+                           System.Reflection.Emit.ILGeneration|4.3.0;
+                           System.Reflection.Emit.Lightweight|4.3.0;
+                           System.Reflection.Extensions|4.3.0;
+                           System.Reflection.Metadata|1.5.0;
+                           System.Reflection.Primitives|4.3.0;
+                           System.Reflection.TypeExtensions|4.3.0;
+                           System.Resources.ResourceManager|4.3.0;
+                           System.Runtime|4.3.0;
+                           System.Runtime.Extensions|4.3.0;
+                           System.Runtime.Handles|4.3.0;
+                           System.Runtime.InteropServices|4.3.0;
+                           System.Runtime.InteropServices.RuntimeInformation|4.3.0;
+                           System.Runtime.Loader|4.3.0;
+                           System.Runtime.Numerics|4.3.0;
+                           System.Runtime.Serialization.Formatters|4.3.0;
+                           System.Runtime.Serialization.Json|4.3.0;
+                           System.Runtime.Serialization.Primitives|4.3.0;
+                           System.Security.AccessControl|4.4.0;
+                           System.Security.Claims|4.3.0;
+                           System.Security.Cryptography.Algorithms|4.3.0;
+                           System.Security.Cryptography.Cng|4.4.0;
+                           System.Security.Cryptography.Csp|4.3.0;
+                           System.Security.Cryptography.Encoding|4.3.0;
+                           System.Security.Cryptography.OpenSsl|4.4.0;
+                           System.Security.Cryptography.Primitives|4.3.0;
+                           System.Security.Cryptography.X509Certificates|4.3.0;
+                           System.Security.Cryptography.Xml|4.4.0;
+                           System.Security.Principal|4.3.0;
+                           System.Security.Principal.Windows|4.4.0;
+                           System.Text.Encoding|4.3.0;
+                           System.Text.Encoding.Extensions|4.3.0;
+                           System.Text.RegularExpressions|4.3.0;
+                           System.Threading|4.3.0;
+                           System.Threading.Overlapped|4.3.0;
+                           System.Threading.Tasks|4.3.0;
+                           System.Threading.Tasks.Extensions|4.3.0;
+                           System.Threading.Tasks.Parallel|4.3.0;
+                           System.Threading.Thread|4.3.0;
+                           System.Threading.ThreadPool|4.3.0;
+                           System.Threading.Timer|4.3.0;
+                           System.ValueTuple|4.3.0;
+                           System.Xml.ReaderWriter|4.3.0;
+                           System.Xml.XDocument|4.3.0;
+                           System.Xml.XmlDocument|4.3.0;
+                           System.Xml.XmlSerializer|4.3.0;
+                           System.Xml.XPath|4.3.0;
+                           System.Xml.XPath.XDocument|4.3.0;
+                         
+                       NETStandard.Library
+                           OverriddenPackages = 
+                           Microsoft.Win32.Primitives|4.3.0;
+                           System.AppContext|4.3.0;
+                           System.Collections|4.3.0;
+                           System.Collections.Concurrent|4.3.0;
+                           System.Collections.Immutable|1.4.0;
+                           System.Collections.NonGeneric|4.3.0;
+                           System.Collections.Specialized|4.3.0;
+                           System.ComponentModel|4.3.0;
+                           System.ComponentModel.EventBasedAsync|4.3.0;
+                           System.ComponentModel.Primitives|4.3.0;
+                           System.ComponentModel.TypeConverter|4.3.0;
+                           System.Console|4.3.0;
+                           System.Data.Common|4.3.0;
+                           System.Diagnostics.Contracts|4.3.0;
+                           System.Diagnostics.Debug|4.3.0;
+                           System.Diagnostics.FileVersionInfo|4.3.0;
+                           System.Diagnostics.Process|4.3.0;
+                           System.Diagnostics.StackTrace|4.3.0;
+                           System.Diagnostics.TextWriterTraceListener|4.3.0;
+                           System.Diagnostics.Tools|4.3.0;
+                           System.Diagnostics.TraceSource|4.3.0;
+                           System.Diagnostics.Tracing|4.3.0;
+                           System.Dynamic.Runtime|4.3.0;
+                           System.Globalization|4.3.0;
+                           System.Globalization.Calendars|4.3.0;
+                           System.Globalization.Extensions|4.3.0;
+                           System.IO|4.3.0;
+                           System.IO.Compression|4.3.0;
+                           System.IO.Compression.ZipFile|4.3.0;
+                           System.IO.FileSystem|4.3.0;
+                           System.IO.FileSystem.DriveInfo|4.3.0;
+                           System.IO.FileSystem.Primitives|4.3.0;
+                           System.IO.FileSystem.Watcher|4.3.0;
+                           System.IO.IsolatedStorage|4.3.0;
+                           System.IO.MemoryMappedFiles|4.3.0;
+                           System.IO.Pipes|4.3.0;
+                           System.IO.UnmanagedMemoryStream|4.3.0;
+                           System.Linq|4.3.0;
+                           System.Linq.Expressions|4.3.0;
+                           System.Linq.Queryable|4.3.0;
+                           System.Net.Http|4.3.0;
+                           System.Net.NameResolution|4.3.0;
+                           System.Net.Primitives|4.3.0;
+                           System.Net.Requests|4.3.0;
+                           System.Net.Security|4.3.0;
+                           System.Net.Sockets|4.3.0;
+                           System.Net.WebHeaderCollection|4.3.0;
+                           System.ObjectModel|4.3.0;
+                           System.Private.DataContractSerialization|4.3.0;
+                           System.Reflection|4.3.0;
+                           System.Reflection.Emit|4.3.0;
+                           System.Reflection.Emit.ILGeneration|4.3.0;
+                           System.Reflection.Emit.Lightweight|4.3.0;
+                           System.Reflection.Extensions|4.3.0;
+                           System.Reflection.Primitives|4.3.0;
+                           System.Reflection.TypeExtensions|4.3.0;
+                           System.Resources.ResourceManager|4.3.0;
+                           System.Runtime|4.3.0;
+                           System.Runtime.Extensions|4.3.0;
+                           System.Runtime.Handles|4.3.0;
+                           System.Runtime.InteropServices|4.3.0;
+                           System.Runtime.InteropServices.RuntimeInformation|4.3.0;
+                           System.Runtime.Loader|4.3.0;
+                           System.Runtime.Numerics|4.3.0;
+                           System.Runtime.Serialization.Formatters|4.3.0;
+                           System.Runtime.Serialization.Json|4.3.0;
+                           System.Runtime.Serialization.Primitives|4.3.0;
+                           System.Security.AccessControl|4.4.0;
+                           System.Security.Claims|4.3.0;
+                           System.Security.Cryptography.Algorithms|4.3.0;
+                           System.Security.Cryptography.Csp|4.3.0;
+                           System.Security.Cryptography.Encoding|4.3.0;
+                           System.Security.Cryptography.Primitives|4.3.0;
+                           System.Security.Cryptography.X509Certificates|4.3.0;
+                           System.Security.Cryptography.Xml|4.4.0;
+                           System.Security.Principal|4.3.0;
+                           System.Security.Principal.Windows|4.4.0;
+                           System.Text.Encoding|4.3.0;
+                           System.Text.Encoding.Extensions|4.3.0;
+                           System.Text.RegularExpressions|4.3.0;
+                           System.Threading|4.3.0;
+                           System.Threading.Overlapped|4.3.0;
+                           System.Threading.Tasks|4.3.0;
+                           System.Threading.Tasks.Extensions|4.3.0;
+                           System.Threading.Tasks.Parallel|4.3.0;
+                           System.Threading.Thread|4.3.0;
+                           System.Threading.ThreadPool|4.3.0;
+                           System.Threading.Timer|4.3.0;
+                           System.ValueTuple|4.3.0;
+                           System.Xml.ReaderWriter|4.3.0;
+                           System.Xml.XDocument|4.3.0;
+                           System.Xml.XmlDocument|4.3.0;
+                           System.Xml.XmlSerializer|4.3.0;
+                           System.Xml.XPath|4.3.0;
+                           System.Xml.XPath.XDocument|4.3.0;
+                         
+                   PackageConflictPlatformManifests
+                       C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.netcore.app\2.2.0\build\netcoreapp2.2\Microsoft.NETCore.App.PlatformManifest.txt
+                   PackageReference
+                       Microsoft.AspNetCore.Mvc.Core
+                           Version = 2.2.5
+                       Microsoft.NET.Test.Sdk
+                           Version = 16.0.1
+                       Microsoft.NETCore.App
+                           IsImplicitlyDefined = true
+                           PrivateAssets = All
+                           Publish = true
+                       MSTest.TestAdapter
+                           Version = 1.4.0
+                       MSTest.TestFramework
+                           Version = 1.4.0
+                   PotentialEditorConfigFiles
+                       C:\.editorconfig
+                       C:\GitHub\.editorconfig
+                       C:\GitHub\Microservicio\.editorconfig
+                       C:\GitHub\Microservicio\Microservicios\.editorconfig
+                       C:\GitHub\Microservicio\Microservicios\Microservices\.editorconfig
+                       C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\.editorconfig
+                   PreprocessorValue
+                       assemblyname
+                           Value = Lil.Customers.Tests
+                       filename
+                           Value = Lil.Customers.Tests.csproj
+                       fullpath
+                           Value = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests
+                       outputfilename
+                           Value = Lil.Customers.Tests.dll
+                       rootnamespace
+                           Value = Lil.Customers.Tests
+                   ProjectCapability
+                       AllTargetOutputGroups
+                       AssemblyReferences
+                       BuildWindowsDesktopTarget
+                       COMReferences
+                       CrossPlatformExecutable
+                       CSharp
+                       DeclaredSourceItems
+                       GenerateDocumentationFile
+                       LanguageService
+                       Managed
+                       OutputGroups
+                       Pack
+                       ProjectReferences
+                       ReferencesFolder
+                       RelativePathDerivedDefaultNamespace
+                       SharedProjectReferences
+                       SingleFileGenerators
+                       TestContainer
+                       UserSourceItems
+                       VisualStudioWellKnownOutputGroups
+                   ProjectReference
+                       ..\Lil.Customers\Lil.Customers.csproj
+                           Targets = 
+                           OutputItemType = 
+                           ReferenceSourceTarget = ProjectReference
+                   PropertyPageSchema
+                       C:\Program Files\dotnet\sdk\3.1.401\\assemblyreference.xaml
+                           Context = ;BrowseObject
+                       C:\Program Files\dotnet\sdk\3.1.401\\COMReference.xaml
+                           Context = ;BrowseObject
+                       C:\Program Files\dotnet\sdk\3.1.401\\Content.xaml
+                           Context = File;BrowseObject
+                       C:\Program Files\dotnet\sdk\3.1.401\\CSharp.BrowseObject.xaml
+                           Context = BrowseObject
+                       C:\Program Files\dotnet\sdk\3.1.401\\CSharp.ProjectItemsSchema.xaml
+                       C:\Program Files\dotnet\sdk\3.1.401\\CSharp.xaml
+                           Context = File
+                       C:\Program Files\dotnet\sdk\3.1.401\\Debugger_General.xaml
+                           Context = Project
+                       C:\Program Files\dotnet\sdk\3.1.401\\EmbeddedResource.xaml
+                           Context = File;BrowseObject
+                       C:\Program Files\dotnet\sdk\3.1.401\\Folder.xaml
+                           Context = File;BrowseObject
+                       C:\Program Files\dotnet\sdk\3.1.401\\General.BrowseObject.xaml
+                           Context = BrowseObject
+                       C:\Program Files\dotnet\sdk\3.1.401\\General.xaml
+                           Context = Project
+                       C:\Program Files\dotnet\sdk\3.1.401\\General_File.xaml
+                           Context = File
+                       C:\Program Files\dotnet\sdk\3.1.401\\None.xaml
+                           Context = File;BrowseObject
+                       C:\Program Files\dotnet\sdk\3.1.401\\ProjectItemsSchema.xaml
+                       C:\Program Files\dotnet\sdk\3.1.401\\ProjectReference.xaml
+                           Context = ;BrowseObject
+                       C:\Program Files\dotnet\sdk\3.1.401\\ResolvedAssemblyReference.xaml
+                           Context = ProjectSubscriptionService;BrowseObject
+                       C:\Program Files\dotnet\sdk\3.1.401\\ResolvedCOMReference.xaml
+                           Context = ProjectSubscriptionService;BrowseObject
+                       C:\Program Files\dotnet\sdk\3.1.401\\ResolvedProjectReference.xaml
+                           Context = ProjectSubscriptionService;BrowseObject
+                       C:\Program Files\dotnet\sdk\3.1.401\\SCC.xaml
+                           Context = Invisible
+                       C:\Program Files\dotnet\sdk\3.1.401\\SpecialFolder.xaml
+                           Context = File;ProjectSubscriptionService
+                   RegFreeComManifest
+                       obj\Debug\netcoreapp2.0\Lil.Customers.Tests.X.manifest
+                   SupportedNETCoreAppTargetFramework
+                       .NETCoreApp,Version=v1.0
+                           DisplayName = .NET Core 1.0
+                       .NETCoreApp,Version=v1.1
+                           DisplayName = .NET Core 1.1
+                       .NETCoreApp,Version=v2.0
+                           DisplayName = .NET Core 2.0
+                       .NETCoreApp,Version=v2.1
+                           DisplayName = .NET Core 2.1
+                       .NETCoreApp,Version=v2.2
+                           DisplayName = .NET Core 2.2
+                       .NETCoreApp,Version=v3.0
+                           DisplayName = .NET Core 3.0
+                       .NETCoreApp,Version=v3.1
+                           DisplayName = .NET Core 3.1
+                   SupportedNETFrameworkTargetFramework
+                       .NETFramework,Version=v2.0
+                           DisplayName = .NET Framework 2.0
+                       .NETFramework,Version=v3.0
+                           DisplayName = .NET Framework 3.0
+                       .NETFramework,Version=v3.5
+                           DisplayName = .NET Framework 3.5
+                       .NETFramework,Version=v4.0
+                           DisplayName = .NET Framework 4.0
+                       .NETFramework,Version=v4.5
+                           DisplayName = .NET Framework 4.5
+                       .NETFramework,Version=v4.5.1
+                           DisplayName = .NET Framework 4.5.1
+                       .NETFramework,Version=v4.5.2
+                           DisplayName = .NET Framework 4.5.2
+                       .NETFramework,Version=v4.6
+                           DisplayName = .NET Framework 4.6
+                       .NETFramework,Version=v4.6.1
+                           DisplayName = .NET Framework 4.6.1
+                       .NETFramework,Version=v4.6.2
+                           DisplayName = .NET Framework 4.6.2
+                       .NETFramework,Version=v4.7
+                           DisplayName = .NET Framework 4.7
+                       .NETFramework,Version=v4.7.1
+                           DisplayName = .NET Framework 4.7.1
+                       .NETFramework,Version=v4.7.2
+                           DisplayName = .NET Framework 4.7.2
+                       .NETFramework,Version=v4.8
+                           DisplayName = .NET Framework 4.8
+                   SupportedNETStandardTargetFramework
+                       .NETStandard,Version=v1.0
+                           DisplayName = .NET Standard 1.0
+                       .NETStandard,Version=v1.1
+                           DisplayName = .NET Standard 1.1
+                       .NETStandard,Version=v1.2
+                           DisplayName = .NET Standard 1.2
+                       .NETStandard,Version=v1.3
+                           DisplayName = .NET Standard 1.3
+                       .NETStandard,Version=v1.4
+                           DisplayName = .NET Standard 1.4
+                       .NETStandard,Version=v1.5
+                           DisplayName = .NET Standard 1.5
+                       .NETStandard,Version=v1.6
+                           DisplayName = .NET Standard 1.6
+                       .NETStandard,Version=v2.0
+                           DisplayName = .NET Standard 2.0
+                       .NETStandard,Version=v2.1
+                           DisplayName = .NET Standard 2.1
+                   SupportedTargetFramework
+                       .NETCoreApp,Version=v1.0
+                           DisplayName = .NET Core 1.0
+                       .NETCoreApp,Version=v1.1
+                           DisplayName = .NET Core 1.1
+                       .NETCoreApp,Version=v2.0
+                           DisplayName = .NET Core 2.0
+                       .NETCoreApp,Version=v2.1
+                           DisplayName = .NET Core 2.1
+                       .NETCoreApp,Version=v2.2
+                           DisplayName = .NET Core 2.2
+                       .NETCoreApp,Version=v3.0
+                           DisplayName = .NET Core 3.0
+                       .NETCoreApp,Version=v3.1
+                           DisplayName = .NET Core 3.1
+                       .NETFramework,Version=v2.0
+                           DisplayName = .NET Framework 2.0
+                       .NETFramework,Version=v3.0
+                           DisplayName = .NET Framework 3.0
+                       .NETFramework,Version=v3.5
+                           DisplayName = .NET Framework 3.5
+                       .NETFramework,Version=v4.0
+                           DisplayName = .NET Framework 4.0
+                       .NETFramework,Version=v4.5
+                           DisplayName = .NET Framework 4.5
+                       .NETFramework,Version=v4.5.1
+                           DisplayName = .NET Framework 4.5.1
+                       .NETFramework,Version=v4.5.2
+                           DisplayName = .NET Framework 4.5.2
+                       .NETFramework,Version=v4.6
+                           DisplayName = .NET Framework 4.6
+                       .NETFramework,Version=v4.6.1
+                           DisplayName = .NET Framework 4.6.1
+                       .NETFramework,Version=v4.6.2
+                           DisplayName = .NET Framework 4.6.2
+                       .NETFramework,Version=v4.7
+                           DisplayName = .NET Framework 4.7
+                       .NETFramework,Version=v4.7.1
+                           DisplayName = .NET Framework 4.7.1
+                       .NETFramework,Version=v4.7.2
+                           DisplayName = .NET Framework 4.7.2
+                       .NETFramework,Version=v4.8
+                           DisplayName = .NET Framework 4.8
+                       .NETStandard,Version=v1.0
+                           DisplayName = .NET Standard 1.0
+                       .NETStandard,Version=v1.1
+                           DisplayName = .NET Standard 1.1
+                       .NETStandard,Version=v1.2
+                           DisplayName = .NET Standard 1.2
+                       .NETStandard,Version=v1.3
+                           DisplayName = .NET Standard 1.3
+                       .NETStandard,Version=v1.4
+                           DisplayName = .NET Standard 1.4
+                       .NETStandard,Version=v1.5
+                           DisplayName = .NET Standard 1.5
+                       .NETStandard,Version=v1.6
+                           DisplayName = .NET Standard 1.6
+                       .NETStandard,Version=v2.0
+                           DisplayName = .NET Standard 2.0
+                       .NETStandard,Version=v2.1
+                           DisplayName = .NET Standard 2.1
+
+10:20:43.922     1>Compilando con la versión de herramientas "Current".
+10:20:43.932     1>Destino "GenerateProgramFile: (TargetId:2)" en el archivo "C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.targets" del proyecto "C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\Lil.Customers.Tests.csproj" (punto de entrada):
+                   Elementos agregados: Compile=C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0\Microsoft.NET.Test.Sdk.Program.cs
+                   Se omitió la tarea "Warning" debido a una condición falsa (False); (@(ProgramCompiles->Count()) != 0) se evaluó como (0 != 0).
+10:20:43.941     1>Compilación terminada del destino "GenerateProgramFile" en el proyecto "Lil.Customers.Tests.csproj".: (TargetId:2)
+                   Se omitió el destino "ShowInfoMessageIfProjectHasNoIsTestProjectProperty" debido a una condición falsa (False); ('$(IsTestProject)' == '') se evaluó como ('true' == '').
+10:20:43.941     1>Destino "VSTest: (TargetId:3)" en el archivo "C:\Program Files\dotnet\sdk\3.1.401\Microsoft.TestPlatform.targets" del proyecto "C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\Lil.Customers.Tests.csproj" (punto de entrada):
+                   Se omitió la tarea "CallTarget" debido a una condición falsa (False); ('$(VSTestNoBuild)' != 'true' AND '$(IsTestProject)' == 'true') se evaluó como ('true' != 'true' AND 'true' == 'true').
+                   Usando la tarea "CallTarget" del ensamblado "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Tarea "CallTarget" (TaskId:2)
+                     Parámetro de tarea:Targets=ShowCallOfVSTestTaskWithParameter (TaskId:2)
+10:20:43.967     1>Destino "ShowCallOfVSTestTaskWithParameter: (TargetId:4)" en el archivo "C:\Program Files\dotnet\sdk\3.1.401\Microsoft.TestPlatform.targets" del proyecto "C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\Lil.Customers.Tests.csproj" (el destino "VSTest" depende de él):
+                   Usando la tarea "Message" del ensamblado "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Tarea "Message" (TaskId:3)
+                     Parámetro de tarea:Text=Calling task Microsoft.TestPlatform.Build.Tasks.VSTestTask with following parameter... (TaskId:3)
+                     Parámetro de tarea:Importance=low (TaskId:3)
+                     Calling task Microsoft.TestPlatform.Build.Tasks.VSTestTask with following parameter... (TaskId:3)
+                   Ejecución de la tarea "Message" terminada. (TaskId:3)
+                   Tarea "Message" (TaskId:4)
+                     Parámetro de tarea:Text=TestFileFullPath = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.0\Lil.Customers.Tests.dll (TaskId:4)
+                     Parámetro de tarea:Importance=low (TaskId:4)
+                     TestFileFullPath = C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.0\Lil.Customers.Tests.dll (TaskId:4)
+                   Ejecución de la tarea "Message" terminada. (TaskId:4)
+                   Tarea "Message" (TaskId:5)
+                     Parámetro de tarea:Text=VSTestSetting =  (TaskId:5)
+                     Parámetro de tarea:Importance=low (TaskId:5)
+                     VSTestSetting =  (TaskId:5)
+                   Ejecución de la tarea "Message" terminada. (TaskId:5)
+                   Tarea "Message" (TaskId:6)
+                     Parámetro de tarea:Text=VSTestTestAdapterPath =  (TaskId:6)
+                     Parámetro de tarea:Importance=low (TaskId:6)
+                     VSTestTestAdapterPath =  (TaskId:6)
+                   Ejecución de la tarea "Message" terminada. (TaskId:6)
+                   Tarea "Message" (TaskId:7)
+                     Parámetro de tarea:Text=VSTestFramework = .NETCoreApp,Version=v2.0 (TaskId:7)
+                     Parámetro de tarea:Importance=low (TaskId:7)
+                     VSTestFramework = .NETCoreApp,Version=v2.0 (TaskId:7)
+                   Ejecución de la tarea "Message" terminada. (TaskId:7)
+                   Tarea "Message" (TaskId:8)
+                     Parámetro de tarea:Text=VSTestPlatform =  (TaskId:8)
+                     Parámetro de tarea:Importance=low (TaskId:8)
+                     VSTestPlatform =  (TaskId:8)
+                   Ejecución de la tarea "Message" terminada. (TaskId:8)
+                   Tarea "Message" (TaskId:9)
+                     Parámetro de tarea:Text=VSTestTestCaseFilter =  (TaskId:9)
+                     Parámetro de tarea:Importance=low (TaskId:9)
+                     VSTestTestCaseFilter =  (TaskId:9)
+                   Ejecución de la tarea "Message" terminada. (TaskId:9)
+                   Tarea "Message" (TaskId:10)
+                     Parámetro de tarea:Text=VSTestLogger =  (TaskId:10)
+                     Parámetro de tarea:Importance=low (TaskId:10)
+                     VSTestLogger =  (TaskId:10)
+                   Ejecución de la tarea "Message" terminada. (TaskId:10)
+                   Tarea "Message" (TaskId:11)
+                     Parámetro de tarea:Text=VSTestListTests =  (TaskId:11)
+                     Parámetro de tarea:Importance=low (TaskId:11)
+                     VSTestListTests =  (TaskId:11)
+                   Ejecución de la tarea "Message" terminada. (TaskId:11)
+                   Tarea "Message" (TaskId:12)
+                     Parámetro de tarea:Text=VSTestDiag =  (TaskId:12)
+                     Parámetro de tarea:Importance=low (TaskId:12)
+                     VSTestDiag =  (TaskId:12)
+                   Ejecución de la tarea "Message" terminada. (TaskId:12)
+                   Tarea "Message" (TaskId:13)
+                     Parámetro de tarea:Text=VSTestCLIRunSettings =  (TaskId:13)
+                     Parámetro de tarea:Importance=low (TaskId:13)
+                     VSTestCLIRunSettings =  (TaskId:13)
+                   Ejecución de la tarea "Message" terminada. (TaskId:13)
+                   Tarea "Message" (TaskId:14)
+                     Parámetro de tarea:Text=VSTestResultsDirectory =  (TaskId:14)
+                     Parámetro de tarea:Importance=low (TaskId:14)
+                     VSTestResultsDirectory =  (TaskId:14)
+                   Ejecución de la tarea "Message" terminada. (TaskId:14)
+                   Tarea "Message" (TaskId:15)
+                     Parámetro de tarea:Text=VSTestConsolePath = C:\Program Files\dotnet\sdk\3.1.401\vstest.console.dll (TaskId:15)
+                     Parámetro de tarea:Importance=low (TaskId:15)
+                     VSTestConsolePath = C:\Program Files\dotnet\sdk\3.1.401\vstest.console.dll (TaskId:15)
+                   Ejecución de la tarea "Message" terminada. (TaskId:15)
+                   Tarea "Message" (TaskId:16)
+                     Parámetro de tarea:Text=VSTestVerbosity =  (TaskId:16)
+                     Parámetro de tarea:Importance=low (TaskId:16)
+                     VSTestVerbosity =  (TaskId:16)
+                   Ejecución de la tarea "Message" terminada. (TaskId:16)
+                   Tarea "Message" (TaskId:17)
+                     Parámetro de tarea:Text=VSTestCollect =  (TaskId:17)
+                     Parámetro de tarea:Importance=low (TaskId:17)
+                     VSTestCollect =  (TaskId:17)
+                   Ejecución de la tarea "Message" terminada. (TaskId:17)
+                   Tarea "Message" (TaskId:18)
+                     Parámetro de tarea:Text=VSTestBlame =  (TaskId:18)
+                     Parámetro de tarea:Importance=low (TaskId:18)
+                     VSTestBlame =  (TaskId:18)
+                   Ejecución de la tarea "Message" terminada. (TaskId:18)
+                   Tarea "Message" (TaskId:19)
+                     Parámetro de tarea:Text=VSTestTraceDataCollectorDirectoryPath = C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.codecoverage\16.0.1\build\netstandard1.0\ (TaskId:19)
+                     Parámetro de tarea:Importance=low (TaskId:19)
+                     VSTestTraceDataCollectorDirectoryPath = C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.codecoverage\16.0.1\build\netstandard1.0\ (TaskId:19)
+                   Ejecución de la tarea "Message" terminada. (TaskId:19)
+                   Tarea "Message" (TaskId:20)
+                     Parámetro de tarea:Text=VSTestNoLogo =  (TaskId:20)
+                     Parámetro de tarea:Importance=low (TaskId:20)
+                     VSTestNoLogo =  (TaskId:20)
+                   Ejecución de la tarea "Message" terminada. (TaskId:20)
+10:20:43.973     1>Compilación terminada del destino "ShowCallOfVSTestTaskWithParameter" en el proyecto "Lil.Customers.Tests.csproj".: (TargetId:4)
+                   Ejecución de la tarea "CallTarget" terminada. (TaskId:2)
+                   Usando la tarea "Microsoft.TestPlatform.Build.Tasks.VSTestTask" del ensamblado "C:\Program Files\dotnet\sdk\3.1.401\Microsoft.TestPlatform.Build.dll".
+                   Tarea "Microsoft.TestPlatform.Build.Tasks.VSTestTask" (TaskId:21)
+                     Parámetro de tarea:TestFileFullPath=C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\bin\Debug\netcoreapp2.0\Lil.Customers.Tests.dll (TaskId:21)
+                     Parámetro de tarea:VSTestFramework=.NETCoreApp,Version=v2.0 (TaskId:21)
+                     Parámetro de tarea:VSTestConsolePath=C:\Program Files\dotnet\sdk\3.1.401\vstest.console.dll (TaskId:21)
+                     Parámetro de tarea:VSTestTraceDataCollectorDirectoryPath=C:\Users\felixignaciorodrigue\.nuget\packages\microsoft.codecoverage\16.0.1\build\netstandard1.0\ (TaskId:21)
+10:20:44.326     1>C:\Program Files\dotnet\sdk\3.1.401\Microsoft.TestPlatform.targets(32,5): error MSB4181: La tarea "Microsoft.TestPlatform.Build.Tasks.VSTestTask" devolvió false, pero no registró un error. [C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\Lil.Customers.Tests.csproj]
+                   Ejecución de la tarea "Microsoft.TestPlatform.Build.Tasks.VSTestTask" terminada -- ERROR. (TaskId:21)
+10:20:44.326     1>Compilación terminada del destino "VSTest" en el proyecto "Lil.Customers.Tests.csproj" -- ERROR.: (TargetId:3)
+10:20:44.327     1>Compilación del proyecto terminada "C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\Lil.Customers.Tests.csproj" (VSTest destinos) -- ERROR.
+
+Resumen de rendimiento de la evaluación del proyecto:
+      370 ms C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\Lil.Customers.Tests.csproj   1 llamadas
+
+Resumen del rendimiento del proyecto:
+      405 ms C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\Lil.Customers.Tests.csproj   1 llamadas
+                405 ms VSTest                                     1 llamadas
+
+Resumen del rendimiento de destino:
+        6 ms ShowCallOfVSTestTaskWithParameter          1 llamadas
+        9 ms GenerateProgramFile                        1 llamadas
+      385 ms VSTest                                     1 llamadas
+
+Resumen del rendimiento de la tarea:
+        5 ms Message                                   18 llamadas
+       14 ms CallTarget                                 1 llamadas
+      346 ms Microsoft.TestPlatform.Build.Tasks.VSTestTask   1 llamadas
+
+ERROR al compilar.
+
+                   "C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\Lil.Customers.Tests.csproj" (VSTest destino) (1) ->
+                   (VSTest destino) -> 
+                     C:\Program Files\dotnet\sdk\3.1.401\Microsoft.TestPlatform.targets(32,5): error MSB4181: La tarea "Microsoft.TestPlatform.Build.Tasks.VSTestTask" devolvió false, pero no registró un error. [C:\GitHub\Microservicio\Microservicios\Microservices\Lil.Customers.Tests\Lil.Customers.Tests.csproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.91
