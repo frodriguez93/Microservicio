@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cES238ulvlSGRIkyc5Vf87Lkk+uY+ldqZAMHTNS/d8OAJPL8F78qgcnJ6ZPQ7O8Fk2gYM7pHxZvR3QEnnlMQiA==",
+  "dgSpecHash": "B7MpTVildICHfNdEG5kn9KhAML1Jq1E7JBHIAm/xcsYU1boM1RIl/crbRGVL5LYUTmtrtHAsNZWlbZtjelwJ2w==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj",
+  "projectFilePath": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
@@ -43,6 +43,7 @@
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.0.1\\microsoft.testplatform.objectmodel.16.0.1.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.testplatform.testhost\\16.0.1\\microsoft.testplatform.testhost.16.0.1.nupkg.sha512",
+    "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.win32.primitives\\4.0.1\\microsoft.win32.primitives.4.0.1.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.win32.registry\\4.0.0\\microsoft.win32.registry.4.0.0.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\mstest.testadapter\\1.4.0\\mstest.testadapter.1.4.0.nupkg.sha512",

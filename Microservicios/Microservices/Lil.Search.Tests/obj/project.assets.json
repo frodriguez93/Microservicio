@@ -6817,11 +6817,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Search.Tests\\Lil.Search.Tests.csproj",
+      "projectUniqueName": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Search.Tests\\Lil.Search.Tests.csproj",
       "projectName": "Lil.Search.Tests",
-      "projectPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Search.Tests\\Lil.Search.Tests.csproj",
+      "projectPath": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Search.Tests\\Lil.Search.Tests.csproj",
       "packagesPath": "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Search.Tests\\obj\\",
+      "outputPath": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Search.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

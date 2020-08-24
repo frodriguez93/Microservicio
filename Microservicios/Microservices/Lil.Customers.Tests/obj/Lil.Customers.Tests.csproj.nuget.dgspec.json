@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj": {}
+    "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj": {
+    "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj",
+        "projectUniqueName": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj",
         "projectName": "Lil.Customers.Tests",
-        "projectPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj",
+        "projectPath": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj",
         "packagesPath": "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\obj\\",
+        "outputPath": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj": {
-                "projectPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj"
+              "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj": {
+                "projectPath": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj": {
+    "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj",
+        "projectUniqueName": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj",
         "projectName": "Lil.Customers",
-        "projectPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj",
+        "projectPath": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj",
         "packagesPath": "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\obj\\",
+        "outputPath": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -135,6 +135,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
             }
           },
           "imports": [

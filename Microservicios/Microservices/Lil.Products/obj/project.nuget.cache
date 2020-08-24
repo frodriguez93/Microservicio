@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ovp5epTjtZdQM1zEwuZqPa1z9aXB11PZUlFxAc/scCTOCEZnFB3kL2egEaxmHbqByvcmiUOJuL0Fc7urBrgaeA==",
+  "dgSpecHash": "+FseoaAYvRLMsVEeUC09blWn1n/d7/7F2H5j4oOMdkT/vrFH+bTjzOACV1imhS3IsvLbqxy8uLWtOrCXY1h84Q==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Products\\Lil.Products.csproj",
+  "projectFilePath": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Products\\Lil.Products.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
@@ -168,6 +168,7 @@
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",

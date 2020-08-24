@@ -1,0 +1,11 @@
+services:
+  lil.customers:
+    build:
+      context: C:\GitHub\MS\Microservicio\Microservicios\Microservices
+      dockerfile: Lil.Customers/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: lilcustomers
+    ports:
+    - target: 80
+version: '3.4'

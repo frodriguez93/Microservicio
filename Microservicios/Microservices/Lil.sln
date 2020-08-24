@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Customers", "Lil.Customers\Lil.Customers.csproj", "{46B1C740-51C6-43F3-8249-9F9CC18949C5}"
 EndProject
@@ -11,13 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Sales", "Lil.Sales\Lil.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Search", "Lil.Search\Lil.Search.csproj", "{84025C23-87EF-403A-BEBA-22776AE41977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Customers.Tests", "Lil.Customers.Tests\Lil.Customers.Tests.csproj", "{056FED2E-F160-4E75-A6DB-FB6C7771E256}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Customers.Tests", "Lil.Customers.Tests\Lil.Customers.Tests.csproj", "{056FED2E-F160-4E75-A6DB-FB6C7771E256}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Products.Tests", "Lil.Products.Tests\Lil.Products.Tests.csproj", "{4259490B-DD6E-46CD-A28C-5DCDE95D5DED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Products.Tests", "Lil.Products.Tests\Lil.Products.Tests.csproj", "{4259490B-DD6E-46CD-A28C-5DCDE95D5DED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Sales.Tests", "Lil.Sales.Tests\Lil.Sales.Tests.csproj", "{F7BF279D-8076-4374-B2D5-E407C4A01213}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Sales.Tests", "Lil.Sales.Tests\Lil.Sales.Tests.csproj", "{F7BF279D-8076-4374-B2D5-E407C4A01213}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lil.Search.Tests", "Lil.Search.Tests\Lil.Search.Tests.csproj", "{56ADF786-0D0A-4136-9363-2E9C1886A6CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lil.Search.Tests", "Lil.Search.Tests\Lil.Search.Tests.csproj", "{56ADF786-0D0A-4136-9363-2E9C1886A6CB}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{98E29C5D-04AB-4D12-ADCB-E622D31399D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +127,18 @@ Global
 		{56ADF786-0D0A-4136-9363-2E9C1886A6CB}.Release|x64.Build.0 = Release|Any CPU
 		{56ADF786-0D0A-4136-9363-2E9C1886A6CB}.Release|x86.ActiveCfg = Release|Any CPU
 		{56ADF786-0D0A-4136-9363-2E9C1886A6CB}.Release|x86.Build.0 = Release|Any CPU
+		{98E29C5D-04AB-4D12-ADCB-E622D31399D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E29C5D-04AB-4D12-ADCB-E622D31399D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E29C5D-04AB-4D12-ADCB-E622D31399D4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{98E29C5D-04AB-4D12-ADCB-E622D31399D4}.Debug|x64.Build.0 = Debug|Any CPU
+		{98E29C5D-04AB-4D12-ADCB-E622D31399D4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{98E29C5D-04AB-4D12-ADCB-E622D31399D4}.Debug|x86.Build.0 = Debug|Any CPU
+		{98E29C5D-04AB-4D12-ADCB-E622D31399D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E29C5D-04AB-4D12-ADCB-E622D31399D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E29C5D-04AB-4D12-ADCB-E622D31399D4}.Release|x64.ActiveCfg = Release|Any CPU
+		{98E29C5D-04AB-4D12-ADCB-E622D31399D4}.Release|x64.Build.0 = Release|Any CPU
+		{98E29C5D-04AB-4D12-ADCB-E622D31399D4}.Release|x86.ActiveCfg = Release|Any CPU
+		{98E29C5D-04AB-4D12-ADCB-E622D31399D4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

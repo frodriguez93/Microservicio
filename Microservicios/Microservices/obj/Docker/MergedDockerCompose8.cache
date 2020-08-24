@@ -1,0 +1,138 @@
+services:
+  lil.customers:
+    build:
+      context: C:\GitHub\MS\Microservicio\Microservicios\Microservices
+      dockerfile: Lil.Customers/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Lil.Customers
+      target: base
+    container_name: Lil.Customers
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: lilcustomers:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/netcoreapp2.1/Lil.Customers.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    tty: true
+    volumes:
+    - C:\GitHub\MS\Microservicio\Microservicios\Microservices\Lil.Customers:/app:rw
+    - C:\Users\felixignaciorodrigue\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\felixignaciorodrigue\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\felixignaciorodrigue\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - C:\Users\felixignaciorodrigue\.nuget\packages:/root/.nuget/packages:ro
+    - C:\GitHub\MS\Microservicio\Microservicios\Microservices:/src:rw
+  lil.products:
+    build:
+      context: C:\GitHub\MS\Microservicio\Microservicios\Microservices
+      dockerfile: Lil.Products/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Lil.Products
+      target: base
+    container_name: Lil.Products
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: lilproducts:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/netcoreapp2.1/Lil.Products.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    tty: true
+    volumes:
+    - C:\GitHub\MS\Microservicio\Microservicios\Microservices\Lil.Products:/app:rw
+    - C:\Users\felixignaciorodrigue\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\felixignaciorodrigue\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\felixignaciorodrigue\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - C:\Users\felixignaciorodrigue\.nuget\packages:/root/.nuget/packages:ro
+    - C:\GitHub\MS\Microservicio\Microservicios\Microservices:/src:rw
+  lil.sales:
+    build:
+      context: C:\GitHub\MS\Microservicio\Microservicios\Microservices
+      dockerfile: Lil.Sales/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Lil.Sales
+      target: base
+    container_name: Lil.Sales
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: lilsales:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/netcoreapp2.1/Lil.Sales.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    tty: true
+    volumes:
+    - C:\GitHub\MS\Microservicio\Microservicios\Microservices\Lil.Sales:/app:rw
+    - C:\Users\felixignaciorodrigue\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\felixignaciorodrigue\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\felixignaciorodrigue\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - C:\Users\felixignaciorodrigue\.nuget\packages:/root/.nuget/packages:ro
+    - C:\GitHub\MS\Microservicio\Microservicios\Microservices:/src:rw
+  lil.search:
+    build:
+      context: C:\GitHub\MS\Microservicio\Microservicios\Microservices
+      dockerfile: Lil.Search/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Lil.Search
+      target: base
+    container_name: Lil.Search
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: lilsearch:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/netcoreapp2.1/Lil.Search.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    tty: true
+    volumes:
+    - C:\GitHub\MS\Microservicio\Microservicios\Microservices\Lil.Search:/app:rw
+    - C:\Users\felixignaciorodrigue\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\felixignaciorodrigue\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\felixignaciorodrigue\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - C:\Users\felixignaciorodrigue\.nuget\packages:/root/.nuget/packages:ro
+    - C:\GitHub\MS\Microservicio\Microservicios\Microservices:/src:rw
+version: '3.4'
