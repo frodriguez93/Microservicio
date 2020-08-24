@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Products\\Lil.Products.csproj": {}
+    "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Products\\Lil.Products.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Products\\Lil.Products.csproj": {
+    "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Products\\Lil.Products.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Products\\Lil.Products.csproj",
+        "projectUniqueName": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Products\\Lil.Products.csproj",
         "projectName": "Lil.Products",
-        "projectPath": "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Products\\Lil.Products.csproj",
+        "projectPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Products\\Lil.Products.csproj",
         "packagesPath": "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Products\\obj\\",
+        "outputPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Products\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp2.1": {
             "projectReferences": {}
           }
         },
@@ -39,12 +39,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
+              "version": "[2.1.1, )",
               "autoReferenced": true
             },
             "Microsoft.AspNetCore.Razor.Design": {
@@ -55,7 +55,7 @@
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
+              "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },

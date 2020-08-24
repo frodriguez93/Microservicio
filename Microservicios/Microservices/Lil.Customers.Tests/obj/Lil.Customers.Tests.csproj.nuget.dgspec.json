@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj": {}
+    "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj": {
+    "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj",
+        "projectUniqueName": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj",
         "projectName": "Lil.Customers.Tests",
-        "projectPath": "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj",
+        "projectPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj",
         "packagesPath": "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\obj\\",
+        "outputPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,17 +21,17 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj": {
-                "projectPath": "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj"
+              "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj": {
+                "projectPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj"
               }
             }
           }
@@ -43,7 +43,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp2.1": {
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -64,7 +64,7 @@
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
+              "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj": {
+    "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj",
+        "projectUniqueName": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj",
         "projectName": "Lil.Customers",
-        "projectPath": "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj",
+        "projectPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\Lil.Customers.csproj",
         "packagesPath": "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\obj\\",
+        "outputPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Customers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -99,14 +99,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp2.1": {
             "projectReferences": {}
           }
         },
@@ -117,12 +117,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
+              "version": "[2.1.1, )",
               "autoReferenced": true
             },
             "Microsoft.AspNetCore.Razor.Design": {
@@ -133,7 +133,7 @@
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
+              "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
