@@ -1,0 +1,14 @@
+C:\GitHub\MS\Microservicio\Microservicios\Microservices\bin\Debug\appsettings.Development.json
+C:\GitHub\MS\Microservicio\Microservicios\Microservices\bin\Debug\appsettings.json
+C:\GitHub\MS\Microservicio\Microservicios\Microservices\bin\Debug\Properties\launchSettings.json
+C:\GitHub\MS\Microservicio\Microservicios\Microservices\bin\Debug\Lil.Customers.dll
+C:\GitHub\MS\Microservicio\Microservicios\Microservices\bin\Debug\Lil.Products.dll
+C:\GitHub\MS\Microservicio\Microservicios\Microservices\bin\Debug\Lil.Sales.dll
+C:\GitHub\MS\Microservicio\Microservicios\Microservices\bin\Debug\Lil.Search.dll
+C:\GitHub\MS\Microservicio\Microservicios\Microservices\bin\Debug\Lil.Customers.pdb
+C:\GitHub\MS\Microservicio\Microservicios\Microservices\bin\Debug\Lil.Products.pdb
+C:\GitHub\MS\Microservicio\Microservicios\Microservices\bin\Debug\Lil.Sales.pdb
+C:\GitHub\MS\Microservicio\Microservicios\Microservices\bin\Debug\Lil.Search.pdb
+C:\GitHub\MS\Microservicio\Microservicios\Microservices\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\GitHub\MS\Microservicio\Microservicios\Microservices\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\GitHub\MS\Microservicio\Microservicios\Microservices\obj\Debug\docker-compose.dcproj.CopyComplete

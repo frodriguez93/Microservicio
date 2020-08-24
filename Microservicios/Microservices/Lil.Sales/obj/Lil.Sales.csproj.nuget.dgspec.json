@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Sales\\Lil.Sales.csproj": {}
+    "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Sales\\Lil.Sales.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Sales\\Lil.Sales.csproj": {
+    "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Sales\\Lil.Sales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Sales\\Lil.Sales.csproj",
+        "projectUniqueName": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Sales\\Lil.Sales.csproj",
         "projectName": "Lil.Sales",
-        "projectPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Sales\\Lil.Sales.csproj",
+        "projectPath": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Sales\\Lil.Sales.csproj",
         "packagesPath": "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Sales\\obj\\",
+        "outputPath": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Sales\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
             }
           },
           "imports": [

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tJTapHgHT1dJmUPLa4SvJ7900V0LuwlnzV4TOJCd0mCMlg0Ls7/WTks5EBBANlZzTpMuZQm6vSdqEV/mT9y8Qg==",
+  "dgSpecHash": "5SGbEpJ+8+Bm/6vnsPSWRkptH/FO+CufBmwSAUVtYwZs/dbti5EwFLrqYWJYNAs4djFES/TTC6p/QHzKqHjN/Q==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\Microservicios\\Microservicio\\Microservicios\\Microservices\\Lil.Search.Tests\\Lil.Search.Tests.csproj",
+  "projectFilePath": "C:\\GitHub\\MS\\Microservicio\\Microservicios\\Microservices\\Lil.Search.Tests\\Lil.Search.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\felixignaciorodrigue\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
